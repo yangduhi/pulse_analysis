@@ -1,0 +1,640 @@
+TestNo,GroupName,ChannelName,Description,Inst_InsCom,Inst_Axis,Unit,Inst_SenAtt
+6940,v6940_Veh1,10FORALERE00AC1P,"v06940_089aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0499s, max@0.0738s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+6945,v6945_Veh1,10VEHCCG0000AC1P,"v06945_001aq0.uds; Sensor: type=AC, Attach=VECG, Prefilter Frequency=1650; min@0.09792s, max@0.0928s",QUESTIONABLE DATA THROUGHOUT THE EVENT,XG,gn,VECG
+6946,v6946_Veh1,10VEHCCG0000AC1P,"v06946_001aa0.uds; Sensor: type=AC, Attach=VECG, Prefilter Frequency=1650; min@0.05056s, max@0.04816s",,XG,gn,VECG
+6947,v6947_Veh1,10VEHCCG0000AC1P,"v06947_001aa0.uds; Sensor: type=AC, Attach=VECG, Prefilter Frequency=1650; min@0.05304s, max@0.04552s",,XG,gn,VECG
+6948,v6948_Veh1,10VEHCCG0000AC1P,"v06948_001aa0.uds; Sensor: type=AC, Attach=VECG, Prefilter Frequency=1650; min@0.02304s, max@0.02832s",,XG,gn,VECG
+6951,v6951_Veh1,10SEATLERE00AC1P,"v06951_085aq0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0245s, max@0.1426s",V1 LEFT REAR SEAT CROSSMEMBER AX -> QUESTIONABLE DATA 45.5 - 143.4 M,XG,gn,SELR
+6964,v6964_Veh1,10SEATLERE00AC1P,"v06964_084aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.05015s, max@0.05s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+6976,v6976_Veh1,10FORALERE00AC1P,"v06976_088aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0419s, max@0.0286s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+6978,v6978_Veh1,10FORALERE00AC1P,"v06978_088aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0362s, max@0.0355s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+6982,v6982_Veh1,10VEHCCG0000AC1P,"v06982_001aa0.uds; Sensor: type=AC, Attach=VECG, Prefilter Frequency=1650; min@0.04008s, max@0.03896s",,XG,gn,VECG
+6983,v6983_Veh1,10VEHCCG0000AC1P,"v06983_001aa0.uds; Sensor: type=AC, Attach=VECG, Prefilter Frequency=1650; min@0.03904s, max@0.01504s",,XG,gn,VECG
+6992,v6992_Veh1,10FORALERE00AC1P,"v06992_088aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0439s, max@0.0428s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+6996,v6996_Veh1,10FORALERE00AC1P,"v06996_089aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0378s, max@0.0408s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+6998,v6998_Veh1,10SEATLERE00AC1P,"v06998_084aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.02935s, max@0.0136s",V1 LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+6999,v6999_Veh1,10FORALERE00AC1P,"v06999_089af0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0699s, max@0.017s",LEFT REAR SEAT CROSSMEMBER X:NO VALID DATA COLLECTED AFTER 70MS,XG,gn,FLLR
+7002,v7002_Veh1,10FORALERE00AC1P,"v07002_089aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0182s, max@0.0212s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7026,v7026_Veh1,10FORALERE00AC1P,"v07026_089aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0229s, max@0.024s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7032,v7032_Veh1,10FORALERE00AC1P,"v07032_089aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0209s, max@0.0235s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7038,v7038_Veh1,10FORALERE00AC1P,"v07038_089af0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@-0.0014s, max@-0.0095s",LEFT REAR SEAT CROSSMEMBER X:NO VALID DATA COLLECTED,XG,gn,FLLR
+7056,v7056_Veh1,10FORALERE00AC1P,"v07056_031aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0498s, max@0.0503s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7066,v7066_Veh1,10FORALERE00AC1P,"v07066_089aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0557s, max@0.0564s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7068,v7068_Veh1,10FORALERE00AC1P,"v07068_031aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0471s, max@0.0457s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7074,v7074_Veh1,10SEATLERE00AC1P,"v07074_088aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.03215s, max@0.0305s",V1 LEFT REAR #1X,XG,gn,SELR
+7078,v7078_Veh1,10FORALERE00AC1P,"v07078_089aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0451s, max@0.0444s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7099,v7099_Veh1,10SEATLERE00AC1P,"v07099_089aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0265s, max@0.01715s",V1 LEFT REAR #1X,XG,gn,SELR
+7112,v7112_Veh1,10FORALERE00AC1P,"v07112_089aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0436s, max@0.0147s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7115,v7115_Veh1,10SEATLERE00AC1P,"v07115_089aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.01535s, max@0.1676s",V1 LEFT REAR #1X,XG,gn,SELR
+7120,v7120_Veh1,10FORALERE00AC1P,"v07120_089aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0352s, max@0.0134s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7121,v7121_Veh1,10SEATLERE00AC1P,"v07121_089aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.05305s, max@0.05375s",V1 LEFT REAR #1X,XG,gn,SELR
+7127,v7127_Veh1,10SEATLERE00AC1P,"v07127_089aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0591s, max@0.02375s",V1 LEFT REAR #1X,XG,gn,SELR
+7137,v7137_Veh1,10FORALERE00AC1P,"v07137_089af0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0366s, max@0.0288s",LEFT REAR SEAT CROSSMEMBER X:NO VALID DATA COLLECTED AFTER 40MS,XG,gn,FLLR
+7139,v7139_Veh1,10SEATLERE00AC1P,"v07139_089aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0431s, max@0.04785s",V1 LEFT REAR #1X,XG,gn,SELR
+7147,v7147_Veh1,10FORALERE00AC1P,"v07147_089aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0663s, max@0.0396s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7149,v7149_Veh1,10FORALERE00AC1P,"v07149_089aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0673s, max@0.0665s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7150,v7150_Veh1,10SEATLERE00AC1P,"v07150_089aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.03475s, max@0.01975s",V1 LEFT REAR #1X,XG,gn,SELR
+7158,v7158_Veh1,10FORALERE00AC1P,"v07158_089aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0341s, max@0.0304s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7175,v7175_Veh1,10SEATLERE00AC1P,"v07175_089aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0418s, max@0.0367s",V1 LEFT REAR #1X,XG,gn,SELR
+7180,v7180_Veh1,10FORALERE00AC1P,"v07180_089aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0403s, max@0.0275s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7182,v7182_Veh1,10FORALERE00AC1P,"v07182_089aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0461s, max@0.035s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7188,v7188_Veh1,10FORALERE00AC1P,"v07188_089aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0438s, max@0.0238s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7189,v7189_Veh1,10SEATLERE00AC1P,"v07189_089aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0331s, max@0.03395s",V1 LEFT REAR #1X,XG,gn,SELR
+7194,v7194_Veh1,10FORALERE00AC1P,"v07194_089aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0377s, max@0.0201s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7200,v7200_Veh1,10FORALERE00AC1P,"v07200_089aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0595s, max@0.0599s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7201,v7201_Veh1,10FORALERE00AC1P,"v07201_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0276s, max@0.0153s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7203,v7203_Veh1,10FORALERE00AC1P,"v07203_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0187s, max@0.0239s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7339,v7339_Veh1,10FORALERE00AC1P,"v07339_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0422s, max@0.043s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7347,v7347_Veh1,10FORALERE00AC1P,"v07347_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0402s, max@0.0761s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7350,v7350_Veh1,10FORALERE00AC1P,"v07350_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0324s, max@0.0145s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7358,v7358_Veh1,10FORALERE00AC1P,"v07358_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0337s, max@0.0185s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7359,v7359_Veh1,10SEATLERE00AC1P,"v07359_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.07265s, max@0.0728s",V1 LEFT REAR #1X,XG,gn,SELR
+7362,v7362_Veh1,10FORALERE00AC1P,"v07362_093af0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0107s, max@0.0144s",LEFT REAR SEAT CROSSMEMBER X:No valid data collected after 15ms,XG,gn,FLLR
+7370,v7370_Veh1,10FORALERE00AC1P,"v07370_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0406s, max@0.0375s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7375,v7375_Veh1,10FORALERE00AC1P,"v07375_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0374s, max@0.038s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7393,v7393_Veh1,10FORALERE00AC1P,"v07393_093af0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0401s, max@0.0419s",LEFT REAR SEAT CROSSMEMBER X:No valid data collected after 68ms,XG,gn,FLLR
+7417,v7417_Veh1,10FORALERE00AC1P,"v07417_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0701s, max@0.0425s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7440,v7440_Veh1,10FORALERE00AC1P,"v07440_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0282s, max@0.0273s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7460,v7460_Veh1,10FORALERE00AC1P,"v07460_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0179s, max@0.0213s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7464,v7464_Veh1,10FORALERE00AC1P,"v07464_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0431s, max@0.0383s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7471,v7471_Veh1,10FORALERE00AC1P,"v07471_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0512s, max@0.043s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7482,v7482_Veh1,10SEATLERE00AC1P,"v07482_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0372s, max@0.0174s",V1 LEFT REAR SILL AX,XG,gn,SELR
+7488,v7488_Veh1,10SEATLERE00AC1P,"v07488_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.01125s, max@0.0127s",V1 LEFT REAR SILL AX,XG,gn,SELR
+7494,v7494_Veh1,10FORALERE00AC1P,"v07494_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0306s, max@0.0303s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7495,v7495_Veh1,10FORALERE00AC1P,"v07495_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0407s, max@0.062s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7504,v7504_Veh1,10FORALERE00AC1P,"v07504_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0313s, max@0.027s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7509,v7509_Veh1,10FORALERE00AC1P,"v07509_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.1247s, max@0.1245s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7516,v7516_Veh1,10SEATLERE00AC1P,"v07516_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0195s, max@0.0207s",V1 LEFT REAR SILL AX,XG,gn,SELR
+7520,v7520_Veh1,10FORALERE00AC1P,"v07520_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0843s, max@0.0845s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7521,v7521_Veh1,10DOORLERE00AC1P,"v07521_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0137s, max@0.0929s",LEFT REAR SILL AX,XG,gn,DSLR
+7525,v7525_Veh1,10SEATLERE00AC1P,"v07525_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0593s, max@0.0333s",V1 LEFT REAR SILL AX,XG,gn,SELR
+7526,v7526_Veh1,10FORALERE00AC1P,"v07526_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0459s, max@0.0455s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7527,v7527_Veh1,10FORALERE00AC1P,"v07527_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0214s, max@0.0231s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7531,v7531_Veh1,10DOORLERE00AC1P,"v07531_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0578s, max@0.0576s",LEFT REAR SILL AX,XG,gn,DSLR
+7536,v7536_Veh1,10FORALERE00AC1P,"v07536_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0384s, max@0.0298s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7564,v7564_Veh1,10FORALERE00AC1P,"v07564_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0135s, max@0.0264s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7566,v7566_Veh1,10SEATLERE00AC1P,"v07566_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.05205s, max@0.0519s",V1 LEFT REAR SILL AX,XG,gn,SELR
+7567,v7567_Veh1,10SEATLERE00AC1P,"v07567_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.01285s, max@0.01685s",V1 LEFT REAR SILL AX,XG,gn,SELR
+7569,v7569_Veh1,10DOORLERE00AC1P,"v07569_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0638s, max@0.0636s",LEFT REAR SILL AX,XG,gn,DSLR
+7573,v7573_Veh1,10SEATLERE00AC1P,"v07573_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0227s, max@0.02745s",V1 LEFT REAR SILL AX,XG,gn,SELR
+7574,v7574_Veh1,10FORALERE00AC1P,"v07574_093aq0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0403s, max@0.0587s",LEFT REAR SEAT CROSSMEMBER X: QUESTIONABLE FROM 58-64 MS,XG,gn,FLLR
+7577,v7577_Veh1,10DOORLERE00AC1P,"v07577_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0184s, max@0.0202s",LEFT REAR SILL AX,XG,gn,DSLR
+7579,v7579_Veh1,10FORALERE00AC1P,"v07579_093aq0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0639s, max@0.0235s",LEFT REAR SEAT CROSSMEMBER X: QUESTIONABLE DATA FROM 63-65 MS,XG,gn,FLLR
+7582,v7582_Veh1,10FORALERE00AC1P,"v07582_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0346s, max@0.0326s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7585,v7585_Veh1,10DOORLERE00AC1P,"v07585_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0106s, max@0.0139s",LEFT REAR SILL AX,XG,gn,DSLR
+7587,v7587_Veh1,10FORALERE00AC1P,"v07587_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.018s, max@0.0167s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7588,v7588_Veh1,10SEATLERE00AC1P,"v07588_093aq0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0216s, max@0.12305s",V1 LEFT REAR SILL AX - QUESTIONABLE DELTA-V,XG,gn,SELR
+7592,v7592_Veh1,10FORALERE00AC1P,"v07592_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0127s, max@0.0133s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7605,v7605_Veh1,10DOORLERE00AC1P,"v07605_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0312s, max@0.0174s",LEFT REAR SILL AX,XG,gn,DSLR
+7606,v7606_Veh1,10FORALERE00AC1P,"v07606_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0187s, max@0.0179s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7609,v7609_Veh1,10DOORLERE00AC1P,"v07609_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0328s, max@0.0256s",LEFT REAR SILL AX,XG,gn,DSLR
+7612,v7612_Veh1,10DOORLERE00AC1P,"v07612_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0174s, max@0.0136s",LEFT REAR SILL AX,XG,gn,DSLR
+7614,v7614_Veh1,10DOORLERE00AC1P,"v07614_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0249s, max@0.0247s",LEFT REAR SILL AX,XG,gn,DSLR
+7615,v7615_Veh1,10SEATLERE00AC1P,"v07615_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0465s, max@0.151s",V1 LEFT REAR SILL AX,XG,gn,SELR
+7617,v7617_Veh1,10FORALERE00AC1P,"v07617_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0342s, max@0.0338s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7618,v7618_Veh1,10DOORLERE00AC1P,"v07618_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0591s, max@0.0619s",LEFT REAR SILL AX,XG,gn,DSLR
+7619,v7619_Veh1,10FORALERE00AC1P,"v07619_093aq0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0579s, max@0.0599s",LEFT REAR SEAT CROSSMEMBER X:QUESTIONABLE DATA FROM 56-62MS,XG,gn,FLLR
+7620,v7620_Veh1,10DOORLERE00AC1P,"v07620_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0379s, max@0.0373s",LEFT REAR SILL AX,XG,gn,DSLR
+7622,v7622_Veh1,10SEATLERE00AC1P,"v07622_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0713s, max@0.0693s",V1 LEFT REAR SILL AX,XG,gn,SELR
+7623,v7623_Veh1,10DOORLERE00AC1P,"v07623_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0172s, max@0.0263s",LEFT REAR SILL AX,XG,gn,DSLR
+7624,v7624_Veh1,10DOORLERE00AC1P,"v07624_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0135s, max@0.0128s",LEFT REAR SILL AX,XG,gn,DSLR
+7625,v7625_Veh1,10DOORLERE00AC1P,"v07625_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0283s, max@0.0281s",LEFT REAR SILL AX,XG,gn,DSLR
+7626,v7626_Veh1,10FORALERE00AC1P,"v07626_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0291s, max@0.0303s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7627,v7627_Veh1,10DOORLERE00AC1P,"v07627_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0232s, max@0.0222s",LEFT REAR SILL AX,XG,gn,DSLR
+7628,v7628_Veh1,10SEATLERE00AC1P,"v07628_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.04015s, max@0.01125s",V1 LEFT REAR SILL AX,XG,gn,SELR
+7641,v7641_Veh1,10FORALERE00AC1P,"v07641_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0224s, max@0.0195s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7717,v7717_Veh1,10FORALERE00AC1P,"v07717_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0342s, max@0.0231s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7720,v7720_Veh1,10FORALERE00AC1P,"v07720_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0371s, max@0.0243s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7729,v7729_Veh1,10DOORLERE00AC1P,"v07729_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0358s, max@0.011s",LEFT REAR SILL AX,XG,gn,DSLR
+7732,v7732_Veh1,10FORALERE00AC1P,"v07732_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0566s, max@0.0561s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7734,v7734_Veh1,10FORALERE00AC1P,"v07734_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0322s, max@0.0192s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7740,v7740_Veh1,10FORALERE00AC1P,"v07740_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0334s, max@0.0366s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7744,v7744_Veh1,10DOORLERE00AC1P,"v07744_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0326s, max@0.0825s",LEFT REAR SILL AX,XG,gn,DSLR
+7747,v7747_Veh1,10DOORLERE00AC1P,"v07747_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0856s, max@0.0844s",LEFT REAR SILL AX,XG,gn,DSLR
+7751,v7751_Veh1,10FORALERE00AC1P,"v07751_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0184s, max@0.0209s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7755,v7755_Veh1,10DOORLERE00AC1P,"v07755_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0111s, max@0.0149s",LEFT REAR SILL AX,XG,gn,DSLR
+7856,v7856_Veh1,10FORALERE00AC1P,"v07856_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0583s, max@0.0565s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7857,v7857_Veh1,10DOORLERE00AC1P,"v07857_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0527s, max@0.0151s",LEFT REAR SILL AX,XG,gn,DSLR
+7863,v7863_Veh1,10FORALERE00AC1P,"v07863_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0342s, max@0.0204s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7869,v7869_Veh1,10FORALERE00AC1P,"v07869_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0496s, max@0.049s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7871,v7871_Veh1,10DOORLERE00AC1P,"v07871_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0578s, max@0.0585s",LEFT REAR SILL AX,XG,gn,DSLR
+7872,v7872_Veh1,10DOORLERE00AC1P,"v07872_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0594s, max@0.0567s",LEFT REAR SILL AX,XG,gn,DSLR
+7873,v7873_Veh1,10DOORLERE00AC1P,"v07873_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0386s, max@0.0356s",LEFT REAR SILL AX,XG,gn,DSLR
+7876,v7876_Veh1,10FORALERE00AC1P,"v07876_093aq0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0459s, max@0.0219s",LEFT REAR SEAT CROSSMEMBER X:NO VALID DATA COLLECTED AFTER 70MS,XG,gn,FLLR
+7931,v7931_Veh1,10FORALERE00AC1P,"v07931_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0367s, max@0.0777s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7941,v7941_Veh1,10DOORLERE00AC1P,"v07941_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0452s, max@0.045s",LEFT REAR SILL AX,XG,gn,DSLR
+7947,v7947_Veh1,10DOORLERE00AC1P,"v07947_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0393s, max@0.0391s",LEFT REAR SILL AX,XG,gn,DSLR
+7965,v7965_Veh1,10DOORLERE00AC1P,"v07965_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0572s, max@0.0167s",LEFT REAR SILL AX,XG,gn,DSLR
+7966,v7966_Veh1,10FORALERE00AC1P,"v07966_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0375s, max@0.0373s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7969,v7969_Veh1,10FORALERE00AC1P,"v07969_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0434s, max@0.0406s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7975,v7975_Veh1,10FORALERE00AC1P,"v07975_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.043s, max@0.0424s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7977,v7977_Veh1,10DOORLERE00AC1P,"v07977_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.048s, max@0.0151s",LEFT REAR SILL AX,XG,gn,DSLR
+7978,v7978_Veh1,10FORALERE00AC1P,"v07978_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0376s, max@0.0425s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7983,v7983_Veh1,10SEATLERE00AC1P,"v07983_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0153s, max@0.0232s",V1 LEFT REAR SILL AX,XG,gn,SELR
+7989,v7989_Veh1,10FORALERE00AC1P,"v07989_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0221s, max@0.0248s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+7995,v7995_Veh1,10SEATLERE00AC1P,"v07995_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.03128s, max@0.03104s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+8000,v8000_Veh1,10FORALERE00AC1P,"v08000_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0377s, max@0.0164s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8001,v8001_Veh1,10SEATLERE00AC1P,"v08001_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0396s, max@0.04s",V1 LEFT REAR SILL AX,XG,gn,SELR
+8024,v8024_Veh1,10FORALERE00AC1P,"v08024_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0365s, max@0.0358s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8026,v8026_Veh1,10SEATLERE00AC1P,"v08026_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.07984s, max@0.03744s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+8027,v8027_Veh1,10FORALERE00AC1P,"v08027_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0573s, max@0.0213s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8030,v8030_Veh1,10SEATLERE00AC1P,"v08030_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.0396s, max@0.04528s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+8035,v8035_Veh1,10DOORLERE00AC1P,"v08035_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0178s, max@0.0194s",LEFT REAR SILL AX,XG,gn,DSLR
+8036,v8036_Veh1,10SEATLERE00AC1P,"v08036_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.05096s, max@0.02096s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+8038,v8038_Veh1,10FORALERE00AC1P,"v08038_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0469s, max@0.0471s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8043,v8043_Veh1,10FORALERE00AC1P,"v08043_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0294s, max@0.0301s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8045,v8045_Veh1,10DOORLERE00AC1P,"v08045_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0166s, max@0.0196s",LEFT REAR SILL AX,XG,gn,DSLR
+8048,v8048_Veh1,10FORALERE00AC1P,"v08048_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0451s, max@0.0458s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8049,v8049_Veh1,10SEATLERE00AC1P,"v08049_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.012s, max@0.0117s",V1 LEFT REAR SILL AX,XG,gn,SELR
+8055,v8055_Veh1,10DOORLERE00AC1P,"v08055_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0244s, max@0.0228s",LEFT REAR SILL AX,XG,gn,DSLR
+8057,v8057_Veh1,10FORALERE00AC1P,"v08057_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0615s, max@0.0885s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8064,v8064_Veh1,10DOORLERE00AC1P,"v08064_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.045s, max@0.0448s",LEFT REAR SILL AX,XG,gn,DSLR
+8066,v8066_Veh1,10FORALERE00AC1P,"v08066_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0478s, max@0.0356s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8068,v8068_Veh1,10DOORLERE00AC1P,"v08068_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0598s, max@0.0594s",LEFT REAR SILL AX,XG,gn,DSLR
+8071,v8071_Veh1,10FORALERE00AC1P,"v08071_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0335s, max@0.0489s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8077,v8077_Veh1,10FORALERE00AC1P,"v08077_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0176s, max@0.0182s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8080,v8080_Veh1,10DOORLERE00AC1P,"v08080_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0634s, max@0.0636s",LEFT REAR SILL AX,XG,gn,DSLR
+8081,v8081_Veh1,10DOORLERE00AC1P,"v08081_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0701s, max@0.0195s",LEFT REAR SILL AX,XG,gn,DSLR
+8091,v8091_Veh1,10FORALERE00AC1P,"v08091_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0542s, max@0.0152s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8100,v8100_Veh1,10FORALERE00AC1P,"v08100_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0541s, max@0.0443s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8104,v8104_Veh1,10DOORLERE00AC1P,"v08104_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0213s, max@0.02s",LEFT REAR SILL AX,XG,gn,DSLR
+8106,v8106_Veh1,10DOORLERE00AC1P,"v08106_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0328s, max@0.0182s",LEFT REAR SILL AX,XG,gn,DSLR
+8125,v8125_Veh1,10SEATLERE00AC1P,"v08125_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.03205s, max@0.01995s",V1 LEFT REAR SILL AX,XG,gn,SELR
+8151,v8151_Veh1,10FORALERE00AC1P,"v08151_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0447s, max@0.0315s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8153,v8153_Veh1,10DOORLERE00AC1P,"v08153_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0325s, max@0.0196s",LEFT REAR SILL AX,XG,gn,DSLR
+8155,v8155_Veh1,10FORALERE00AC1P,"v08155_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0447s, max@0.044s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8156,v8156_Veh1,10DOORLERE00AC1P,"v08156_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0417s, max@0.0242s",LEFT REAR SILL AX,XG,gn,DSLR
+8158,v8158_Veh1,10SEATLERE00AC1P,"v08158_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.04864s, max@0.02696s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+8189,v8189_Veh1,10SEATLERE00AC1P,"v08189_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.02016s, max@0.0224s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+8191,v8191_Veh1,10FORALERE00AC1P,"v08191_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0421s, max@0.0413s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8193,v8193_Veh1,10SEATLERE00AC1P,"v08193_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0553s, max@0.02535s",V1 LEFT REAR SILL AX,XG,gn,SELR
+8204,v8204_Veh1,10DOORLERE00AC1P,"v08204_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0424s, max@0.0197s",LEFT REAR SILL AX,XG,gn,DSLR
+8209,v8209_Veh1,10FORALERE00AC1P,"v08209_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0547s, max@0.0451s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8212,v8212_Veh1,10FORALERE00AC1P,"v08212_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0101s, max@0.0212s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8213,v8213_Veh1,10FORALERE00AC1P,"v08213_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0315s, max@0.0184s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8217,v8217_Veh1,10FORALERE00AC1P,"v08217_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0177s, max@0.0601s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8251,v8251_Veh1,10FORALERE00AC1P,"v08251_031aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=1650; min@0.0366s, max@0.0162s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8290,v8290_Veh1,10SEATLERE00AC1P,"v08290_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.02664s, max@0.03944s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+8293,v8293_Veh1,10SEATLERE00AC1P,"v08293_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0278s, max@0.0191s",V1 LEFT REAR SILL AX,XG,gn,SELR
+8294,v8294_Veh1,10FORALERE00AC1P,"v08294_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0361s, max@0.0334s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8297,v8297_Veh1,10FORALERE00AC1P,"v08297_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0459s, max@0.0462s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8308,v8308_Veh1,10DOORLERE00AC1P,"v08308_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.021s, max@0.0161s",LEFT REAR SILL AX,XG,gn,DSLR
+8313,v8313_Veh1,10SEATLERE00AC1P,"v08313_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.028s, max@0.01712s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+8314,v8314_Veh1,10DOORLERE00AC1P,"v08314_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.009s, max@0.0309s",LEFT REAR SILL AX,XG,gn,DSLR
+8316,v8316_Veh1,10FORALERE00AC1P,"v08316_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0428s, max@0.043s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8321,v8321_Veh1,10FORALERE00AC1P,"v08321_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0487s, max@0.023s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8322,v8322_Veh1,10DOORLERE00AC1P,"v08322_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0408s, max@0.0406s",LEFT REAR SILL AX,XG,gn,DSLR
+8356,v8356_Veh1,10FORALERE00AC1P,"v08356_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0368s, max@0.0424s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8358,v8358_Veh1,10FORALERE00AC1P,"v08358_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0594s, max@0.0529s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8385,v8385_Veh1,10FORALERE00AC1P,"v08385_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0493s, max@0.0196s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8405,v8405_Veh1,10FORALERE00AC1P,"v08405_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.066s, max@0.0204s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8407,v8407_Veh1,10FORALERE00AC1P,"v08407_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.055s, max@0.0553s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8412,v8412_Veh1,10FORALERE00AC1P,"v08412_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0635s, max@0.0173s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8413,v8413_Veh1,10SEATLERE00AC1P,"v08413_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.05104s, max@0.0276s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+8446,v8446_Veh1,10DOORLERE00AC1P,"v08446_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0495s, max@0.0166s",LEFT REAR SILL AX,XG,gn,DSLR
+8455,v8455_Veh1,10SEATLERE00AC1P,"v08455_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0162s, max@0.01575s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+8456,v8456_Veh1,10FORALERE00AC1P,"v08456_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0181s, max@0.0178s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8457,v8457_Veh1,10SEATLERE00AC1P,"v08457_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0696s, max@0.11445s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+8459,v8459_Veh1,10DOORLERE00AC1P,"v08459_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0344s, max@0.0296s",LEFT REAR SILL AX,XG,gn,DSLR
+8464,v8464_Veh1,10FORALERE00AC1P,"v08464_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0369s, max@0.0176s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8470,v8470_Veh1,10FORALERE00AC1P,"v08470_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0505s, max@0.1254s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8480,v8480_Veh1,10FORALERE00AC1P,"v08480_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0204s, max@0.0202s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8487,v8487_Veh1,10SEATLERE00AC1P,"v08487_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0907s, max@0.0909s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+8495,v8495_Veh1,10FORALERE00AC1P,"v08495_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0433s, max@0.0267s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8515,v8515_Veh1,10DOORLERE00AC1P,"v08515_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0396s, max@0.0214s",LEFT REAR SILL AX,XG,gn,DSLR
+8520,v8520_Veh1,10FORALERE00AC1P,"v08520_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0377s, max@0.0249s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8521,v8521_Veh1,10SEATLERE00AC1P,"v08521_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.03384s, max@0.04928s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+8526,v8526_Veh1,10FORALERE00AC1P,"v08526_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0205s, max@0.0222s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8531,v8531_Veh1,10FORALERE00AC1P,"v08531_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0445s, max@0.0539s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8537,v8537_Veh1,10SEATLERE00AC1P,"v08537_091aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0592s, max@0.05905s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+8538,v8538_Veh1,10DOORLERE00AC1P,"v08538_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0443s, max@0.0222s",LEFT REAR SILL AX,XG,gn,DSLR
+8539,v8539_Veh1,10SEATLERE00AC1P,"v08539_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.02375s, max@0.0278s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+8540,v8540_Veh1,10SEATLERE00AC1P,"v08540_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0169s, max@0.01705s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+8543,v8543_Veh1,10SEATLERE00AC1P,"v08543_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.05125s, max@0.04835s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+8545,v8545_Veh1,10SEATLERE00AC1P,"v08545_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0495s, max@0.0558s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+8562,v8562_Veh1,10SEATLERE00AC1P,"v08562_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.00945s, max@0.00965s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+8588,v8588_Veh1,10SEATLERE00AC1P,"v08588_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0636s, max@0.0485s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+8589,v8589_Veh1,10SEATLERE00AC1P,"v08589_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.05615s, max@0.00995s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+8590,v8590_Veh1,10SEATLERE00AC1P,"v08590_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.03325s, max@0.0241s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+8604,v8604_Veh1,10SEATLERE00AC1P,"v08604_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.04235s, max@0.05325s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+8605,v8605_Veh1,10SEATLERE00AC1P,"v08605_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.01888s, max@0.02704s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+8641,v8641_Veh1,10SEATLERE00AC1P,"v08641_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.05035s, max@0.04895s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+8651,v8651_Veh1,10FORALERE00AC1P,"v08651_031aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0477s, max@0.0469s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8660,v8660_Veh1,10SEATLERE00AC1P,"v08660_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0603s, max@0.06085s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+8748,v8748_Veh1,10FORALERE00AC1P,"v08748_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0236s, max@0.0225s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8755,v8755_Veh1,10DOORLERE00AC1P,"v08755_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0395s, max@0.0397s",LEFT REAR SILL AX,XG,gn,DSLR
+8781,v8781_Veh1,10FORALERE00AC1P,"v08781_093af0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@-0.029s, max@-0.0146s",LEFT REAR SEAT CROSSMEMBER X:NO VALID DATA,XG,gn,FLLR
+8877,v8877_Veh1,10FORALERE00AC1P,"v08877_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0192s, max@0.0235s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8878,v8878_Veh1,10FORALERE00AC1P,"v08878_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0392s, max@0.0246s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8900,v8900_Veh1,10FORALERE00AC1P,"v08900_031aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0539s, max@0.0506s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8901,v8901_Veh1,10FORALERE00AC1P,"v08901_031aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0503s, max@0.0146s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8909,v8909_Veh1,10FORALERE00AC1P,"v08909_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0444s, max@0.0229s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8949,v8949_Veh1,10FORALERE00AC1P,"v08949_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0405s, max@0.034s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8982,v8982_Veh1,10FORALERE00AC1P,"v08982_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.014s, max@0.0203s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8987,v8987_Veh1,10FORALERE00AC1P,"v08987_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0617s, max@0.0262s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+8988,v8988_Veh1,10DOORLERE00AC1P,"v08988_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0377s, max@0.0189s",LEFT REAR SILL AX,XG,gn,DSLR
+8993,v8993_Veh1,10FORALERE00AC1P,"v08993_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0454s, max@0.0278s",LEFT REAR SEAT CROSSMEMBER X - QUESTIONABLE DELTA-V,XG,gn,FLLR
+9005,v9005_Veh1,10FORALERE00AC1P,"v09005_093af0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0324s, max@0.0327s",LEFT REAR SEAT CROSSMEMBER X:No valid data after 40ms,XG,gn,FLLR
+9009,v9009_Veh1,10DOORLERE00AC1P,"v09009_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0328s, max@0.0237s",LEFT REAR SILL AX,XG,gn,DSLR
+9010,v9010_Veh1,10DOORLERE00AC1P,"v09010_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0421s, max@0.0183s",LEFT REAR SILL AX,XG,gn,DSLR
+9011,v9011_Veh1,10DOORLERE00AC1P,"v09011_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0481s, max@0.0511s",LEFT REAR SILL AX,XG,gn,DSLR
+9012,v9012_Veh1,10FORALERE00AC1P,"v09012_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0286s, max@0.0368s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9029,v9029_Veh1,10FORALERE00AC1P,"v09029_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0594s, max@0.0163s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9030,v9030_Veh1,10FORALERE00AC1P,"v09030_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0304s, max@0.0193s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9033,v9033_Veh1,10SEATLERE00AC1P,"v09033_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.06485s, max@0.01785s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+9035,v9035_Veh1,10FORALERE00AC1P,"v09035_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0537s, max@0.0157s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9047,v9047_Veh1,10DOORLERE00AC1P,"v09047_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.051s, max@0.0156s",LEFT REAR SILL AX,XG,gn,DSLR
+9048,v9048_Veh1,10SEATLERE00AC1P,"v09048_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.055s, max@0.05135s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+9051,v9051_Veh1,10FORALERE00AC1P,"v09051_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0178s, max@0.0144s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9059,v9059_Veh1,10DOORLERE00AC1P,"v09059_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0649s, max@0.0198s",LEFT REAR SILL AX,XG,gn,DSLR
+9065,v9065_Veh1,10SEATLERE00AC1P,"v09065_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.06144s, max@0.04336s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+9068,v9068_Veh1,10FORALERE00AC1P,"v09068_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0439s, max@0.0407s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9069,v9069_Veh1,10SEATLERE00AC1P,"v09069_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.04976s, max@0.01384s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+9070,v9070_Veh1,10FORALERE00AC1P,"v09070_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0386s, max@0.041s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9077,v9077_Veh1,10SEATLERE00AC1P,"v09077_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.03825s, max@0.0396s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+9078,v9078_Veh1,10FORALERE00AC1P,"v09078_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0354s, max@0.0214s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9079,v9079_Veh1,10SEATLERE00AC1P,"v09079_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.04015s, max@0.0674s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+9080,v9080_Veh1,10SEATLERE00AC1P,"v09080_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.03605s, max@0.03735s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+9086,v9086_Veh1,10SEATLERE00AC1P,"v09086_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.06005s, max@0.01955s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+9097,v9097_Veh1,10FORALERE00AC1P,"v09097_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.027s, max@0.0248s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9111,v9111_Veh1,10FORALERE00AC1P,"v09111_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0761s, max@0.0337s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9114,v9114_Veh1,10DOORLERE00AC1P,"v09114_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0248s, max@0.0231s",LEFT REAR SILL AX,XG,gn,DSLR
+9136,v9136_Veh1,10FORALERE00AC1P,"v09136_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0281s, max@0.0455s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9156,v9156_Veh1,10FORALERE00AC1P,"v09156_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0594s, max@0.0443s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9157,v9157_Veh1,10FORALERE00AC1P,"v09157_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0432s, max@0.0168s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9160,v9160_Veh1,10FORALERE00AC1P,"v09160_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0224s, max@0.0215s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9166,v9166_Veh1,10FORALERE00AC1P,"v09166_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0485s, max@0.0409s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9248,v9248_Veh1,10DOORLERE00AC1P,"v09248_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0104s, max@0.0389s",LEFT REAR SILL AX,XG,gn,DSLR
+9250,v9250_Veh1,10DOORLERE00AC1P,"v09250_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0181s, max@0.0618s",LEFT REAR SILL AX,XG,gn,DSLR
+9252,v9252_Veh1,10FORALERE00AC1P,"v09252_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0457s, max@0.0264s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9295,v9295_Veh1,10FORALERE00AC1P,"v09295_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0545s, max@0.0528s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9296,v9296_Veh1,10FORALERE00AC1P,"v09296_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0464s, max@0.0416s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9326,v9326_Veh1,10FORALERE00AC1P,"v09326_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0405s, max@0.0401s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9332,v9332_Veh1,10DOORLERE00AC1P,"v09332_237aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=4000; min@0.01705s, max@0.01865s",V1 LEFT REAR SILL X ACCELERATION,XG,gn,DSLR
+9333,v9333_Veh1,10DOORLERE00AC1P,"v09333_237aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=4000; min@0.0175s, max@0.01915s",V1 LEFT REAR SILL X ACCELERATION,XG,gn,DSLR
+9334,v9334_Veh1,10DOORLERE00AC1P,"v09334_237aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=4000; min@0.0465s, max@0.0134s",V1 LEFT REAR SILL X ACCELERATION,XG,gn,DSLR
+9335,v9335_Veh1,10DOORLERE00AC1P,"v09335_237aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=4000; min@0.03715s, max@0.03475s",V1 LEFT REAR SILL X ACCELERATION,XG,gn,DSLR
+9336,v9336_Veh1,10DOORLERE00AC1P,"v09336_237aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=4000; min@0.02095s, max@0.01945s",V1 LEFT REAR SILL X ACCELERATION,XG,gn,DSLR
+9337,v9337_Veh1,10DOORLERE00AC1P,"v09337_237aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=4000; min@0.05035s, max@0.01575s",V1 LEFT REAR SILL X ACCELERATION,XG,gn,DSLR
+9350,v9350_Veh1,10FORALERE00AC1P,"v09350_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0424s, max@0.0429s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9484,v9484_Veh1,10SEATLERE00AC1P,"v09484_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.01608s, max@0.01656s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+9487,v9487_Veh1,10DOORLERE00AC1P,"v09487_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0442s, max@0.0246s",LEFT REAR SILL AX,XG,gn,DSLR
+9492,v9492_Veh1,10FORALERE00AC1P,"v09492_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0632s, max@0.0629s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9493,v9493_Veh1,10SEATLERE00AC1P,"v09493_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.06552s, max@0.02072s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+9494,v9494_Veh1,10DOORLERE00AC1P,"v09494_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0205s, max@0.0221s",LEFT REAR SILL AX,XG,gn,DSLR
+9503,v9503_Veh1,10FORALERE00AC1P,"v09503_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.043s, max@0.0179s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9508,v9508_Veh1,10SEATLERE00AC1P,"v09508_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0183s, max@0.01705s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+9511,v9511_Veh1,10DOORLERE00AC1P,"v09511_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0477s, max@0.0283s",LEFT REAR SILL AX,XG,gn,DSLR
+9512,v9512_Veh1,10FORALERE00AC1P,"v09512_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0259s, max@0.0277s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9552,v9552_Veh1,10FORALERE00AC1P,"v09552_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.063s, max@0.0877s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9553,v9553_Veh1,10SEATLERE00AC1P,"v09553_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.05048s, max@0.01792s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+9557,v9557_Veh1,10FORALERE00AC1P,"v09557_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.056s, max@0.0263s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9561,v9561_Veh1,10SEATLERE00AC1P,"v09561_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.058s, max@0.03752s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+9563,v9563_Veh1,10DOORLERE00AC1P,"v09563_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0207s, max@0.0242s",LEFT REAR SILL AX,XG,gn,DSLR
+9566,v9566_Veh1,10DOORLERE00AC1P,"v09566_234aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=4000; min@0.0348s, max@0.03395s",V1 LEFT REAR SILL X ACCELERATION,XG,gn,DSLR
+9567,v9567_Veh1,10DOORLERE00AC1P,"v09567_234aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=4000; min@0.0139s, max@0.0179s",V1 LEFT REAR SILL X ACCELERATION,XG,gn,DSLR
+9568,v9568_Veh1,10DOORLERE00AC1P,"v09568_234aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=4000; min@0.01755s, max@0.0275s",V1 LEFT REAR SILL X ACCELERATION,XG,gn,DSLR
+9569,v9569_Veh1,10DOORLERE00AC1P,"v09569_234aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=4000; min@0.0475s, max@0.02705s",V1 LEFT REAR SILL X ACCELERATION,XG,gn,DSLR
+9570,v9570_Veh1,10DOORLERE00AC1P,"v09570_234aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=4000; min@0.05835s, max@0.01505s",V1 LEFT REAR SILL X ACCELERATION,XG,gn,DSLR
+9571,v9571_Veh1,10DOORLERE00AC1P,"v09571_234aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=4000; min@0.0141s, max@0.0134s",V1 LEFT REAR SILL X ACCELERATION,XG,gn,DSLR
+9591,v9591_Veh1,10SEATLERE00AC1P,"v09591_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.02456s, max@0.02496s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+9592,v9592_Veh1,10FORALERE00AC1P,"v09592_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0232s, max@0.048s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9593,v9593_Veh1,10FORALERE00AC1P,"v09593_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0343s, max@0.0271s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9649,v9649_Veh1,10FORALERE00AC1P,"v09649_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0507s, max@0.0201s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9662,v9662_Veh1,10SEATLERE00AC1P,"v09662_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0386s, max@0.03885s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+9696,v9696_Veh1,10FORALERE00AC1P,"v09696_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0131s, max@0.0252s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9745,v9745_Veh1,10FORALERE00AC1P,"v09745_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0404s, max@0.0137s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9757,v9757_Veh1,10DOORLERE00AC1P,"v09757_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0418s, max@0.0416s",LEFT REAR SILL AX,XG,gn,DSLR
+9761,v9761_Veh1,10FORALERE00AC1P,"v09761_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0481s, max@0.0565s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9762,v9762_Veh1,10DOORLERE00AC1P,"v09762_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0383s, max@0.085s",LEFT REAR SILL AX,XG,gn,DSLR
+9763,v9763_Veh1,10FORALERE00AC1P,"v09763_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0537s, max@0.0534s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9764,v9764_Veh1,10SEATLERE00AC1P,"v09764_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.02144s, max@0.01792s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+9793,v9793_Veh1,10SEATLERE00AC1P,"v09793_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.05275s, max@0.05235s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+9801,v9801_Veh1,10FORALERE00AC1P,"v09801_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0368s, max@0.0325s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9808,v9808_Veh1,10FORALERE00AC1P,"v09808_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0272s, max@0.0286s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9939,v9939_Veh1,10FORALERE00AC1P,"v09939_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0706s, max@0.0753s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9946,v9946_Veh1,10SEATLERE00AC1P,"v09946_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.06688s, max@0.0764s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+9958,v9958_Veh1,10DOORLERE00AC1P,"v09958_234aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=4000; min@0.0397s, max@0.01955s",V1 LEFT REAR SILL X ACCELERATION,XG,gn,DSLR
+9961,v9961_Veh1,10FORALERE00AC1P,"v09961_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.048s, max@0.091s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9964,v9964_Veh1,10DOORLERE00AC1P,"v09964_186aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=4000; min@0.0184s, max@0.0271s",V1 LEFT REAR SILL X ACCELERATION,XG,gn,DSLR
+9965,v9965_Veh1,10DOORLERE00AC1P,"v09965_186aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=4000; min@0.05305s, max@0.02045s",V1 LEFT REAR SILL X ACCELERATION,XG,gn,DSLR
+9966,v9966_Veh1,10DOORLERE00AC1P,"v09966_186aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=4000; min@0.0239s, max@0.02265s",V1 LEFT REAR SILL X ACCELERATION,XG,gn,DSLR
+9969,v9969_Veh1,10SEATLERE00AC1P,"v09969_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.02264s, max@0.01864s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+9970,v9970_Veh1,10FORALERE00AC1P,"v09970_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0222s, max@0.0264s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9973,v9973_Veh1,10SEATLERE00AC1P,"v09973_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.04605s, max@0.0477s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+9982,v9982_Veh1,10SEATLERE00AC1P,"v09982_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0308s, max@0.0312s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+9984,v9984_Veh1,10SEATLERE00AC1P,"v09984_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.0376s, max@0.03728s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+9987,v9987_Veh1,10SEATLERE00AC1P,"v09987_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.01624s, max@0.02784s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+9989,v9989_Veh1,10SEATLERE00AC1P,"v09989_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.02295s, max@0.0276s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+9991,v9991_Veh1,10SEATLERE00AC1P,"v09991_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.02608s, max@0.0276s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+9992,v9992_Veh1,10FORALERE00AC1P,"v09992_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0218s, max@0.023s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+9997,v9997_Veh1,10DOORLERE00AC1P,"v09997_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0406s, max@0.0192s",LEFT REAR SILL AX,XG,gn,DSLR
+9999,v9999_Veh1,10DOORLERE00AC1P,"v09999_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0177s, max@0.0171s",LEFT REAR SILL AX,XG,gn,DSLR
+10000,v10000_Veh1,10DOORLERE00AC1P,"v10000_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0612s, max@0.0218s",LEFT REAR SILL AX,XG,gn,DSLR
+10001,v10001_Veh1,10FORALERE00AC1P,"v10001_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0167s, max@0.0211s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10002,v10002_Veh1,10FORALERE00AC1P,"v10002_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0327s, max@0.0221s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10005,v10005_Veh1,10SEATLERE00AC1P,"v10005_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.05445s, max@0.0494s",V1 LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+10007,v10007_Veh1,10DOORLERE00AC1P,"v10007_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0495s, max@0.0374s",LEFT REAR SILL AX,XG,gn,DSLR
+10027,v10027_Veh1,10DOORLERE00AC1P,"v10027_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0298s, max@0.0313s",LEFT REAR SILL AX,XG,gn,DSLR
+10028,v10028_Veh1,10FORALERE00AC1P,"v10028_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0513s, max@0.0295s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10031,v10031_Veh1,10DOORLERE00AC1P,"v10031_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0555s, max@0.0259s",LEFT REAR SILL AX,XG,gn,DSLR
+10034,v10034_Veh1,10DOORLERE00AC1P,"v10034_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0177s, max@0.035s",LEFT REAR SILL AX,XG,gn,DSLR
+10039,v10039_Veh1,10DOORLERE00AC1P,"v10039_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0058s, max@0.0147s",LEFT REAR SILL AX,XG,gn,DSLR
+10049,v10049_Veh1,10DOORLERE00AC1P,"v10049_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0179s, max@0.0373s",LEFT REAR SILL AX,XG,gn,DSLR
+10050,v10050_Veh1,10DOORLERE00AC1P,"v10050_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0169s, max@0.0175s",LEFT REAR SILL AX,XG,gn,DSLR
+10058,v10058_Veh1,10SEATLERE00AC1P,"v10058_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.05995s, max@0.03855s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+10060,v10060_Veh1,10FORALERE00AC1P,"v10060_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0539s, max@0.0545s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10068,v10068_Veh1,10DOORLERE00AC1P,"v10068_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0403s, max@0.0223s",LEFT REAR SILL AX,XG,gn,DSLR
+10075,v10075_Veh1,10DOORLERE00AC1P,"v10075_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0477s, max@0.047s",LEFT REAR SILL AX,XG,gn,DSLR
+10076,v10076_Veh1,10DOORLERE00AC1P,"v10076_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0261s, max@0.0231s",LEFT REAR SILL AX,XG,gn,DSLR
+10088,v10088_Veh1,10DOORLERE00AC1P,"v10088_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0165s, max@0.0607s",LEFT REAR SILL AX,XG,gn,DSLR
+10091,v10091_Veh1,10FORALERE00AC1P,"v10091_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0194s, max@0.0192s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10131,v10131_Veh1,10FORALERE00AC1P,"v10131_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.07s, max@0.0697s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10137,v10137_Veh1,10FORALERE00AC1P,"v10137_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0331s, max@0.0432s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10146,v10146_Veh1,10FORALERE00AC1P,"v10146_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0545s, max@0.0481s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10149,v10149_Veh1,10SEATLERE00AC1P,"v10149_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.03488s, max@0.03528s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+10150,v10150_Veh1,10DOORLERE00AC1P,"v10150_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0546s, max@0.02s",LEFT REAR SILL AX,XG,gn,DSLR
+10151,v10151_Veh1,10FORALERE00AC1P,"v10151_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0407s, max@0.0431s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10156,v10156_Veh1,10SEATLERE00AC1P,"v10156_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0436s, max@0.042s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+10159,v10159_Veh1,10DOORLERE00AC1P,"v10159_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0145s, max@0.0314s",LEFT REAR SILL AX,XG,gn,DSLR
+10165,v10165_Veh1,10FORALERE00AC1P,"v10165_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0417s, max@0.0179s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10168,v10168_Veh1,10DOORLERE00AC1P,"v10168_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0373s, max@0.0291s",LEFT REAR SILL AX,XG,gn,DSLR
+10169,v10169_Veh1,10DOORLERE00AC1P,"v10169_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0233s, max@0.027s",LEFT REAR SILL AX,XG,gn,DSLR
+10174,v10174_Veh1,10FORALERE00AC1P,"v10174_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.011s, max@0.0387s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10175,v10175_Veh1,10SEATLERE00AC1P,"v10175_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.0268s, max@0.02992s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+10180,v10180_Veh1,10FORALERE00AC1P,"v10180_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0525s, max@0.0528s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10183,v10183_Veh1,10FORALERE00AC1P,"v10183_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0455s, max@0.0432s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10185,v10185_Veh1,10SEATLERE00AC1P,"v10185_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.01568s, max@0.0128s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+10189,v10189_Veh1,10DOORLERE00AC1P,"v10189_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0102s, max@0.0457s",LEFT REAR SILL AX,XG,gn,DSLR
+10191,v10191_Veh1,10FORALERE00AC1P,"v10191_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0317s, max@0.0252s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10195,v10195_Veh1,10DOORLERE00AC1P,"v10195_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0226s, max@0.0317s",LEFT REAR SILL AX,XG,gn,DSLR
+10309,v10309_Veh1,10DOORLERE00AC1P,"v10309_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0264s, max@0.021s",LEFT REAR SILL AX,XG,gn,DSLR
+10310,v10310_Veh1,10SEATLERE00AC1P,"v10310_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.01576s, max@0.02824s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+10312,v10312_Veh1,10DOORLERE00AC1P,"v10312_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.018s, max@0.014s",LEFT REAR SILL AX,XG,gn,DSLR
+10316,v10316_Veh1,10FORALERE00AC1P,"v10316_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0233s, max@0.168s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10317,v10317_Veh1,10DOORLERE00AC1P,"v10317_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0507s, max@0.0143s",LEFT REAR SILL AX,XG,gn,DSLR
+10320,v10320_Veh1,10DOORLERE00AC1P,"v10320_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0174s, max@0.0154s",LEFT REAR SILL AX,XG,gn,DSLR
+10342,v10342_Veh1,10DOORLERE00AC1P,"v10342_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0477s, max@0.0446s",LEFT REAR SILL AX,XG,gn,DSLR
+10343,v10343_Veh1,10FORALERE00AC1P,"v10343_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0715s, max@0.0718s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10346,v10346_Veh1,10DOORLERE00AC1P,"v10346_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.025s, max@0.0202s",LEFT REAR SILL AX,XG,gn,DSLR
+10349,v10349_Veh1,10DOORLERE00AC1P,"v10349_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0584s, max@0.019s",LEFT REAR SILL AX,XG,gn,DSLR
+10383,v10383_Veh1,10DOORLERE00AC1P,"v10383_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0281s, max@0.0225s",LEFT REAR SILL AX,XG,gn,DSLR
+10387,v10387_Veh1,10FORALERE00AC1P,"v10387_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0567s, max@0.0265s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10391,v10391_Veh1,10DOORLERE00AC1P,"v10391_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0714s, max@0.0211s",LEFT REAR SILL AX,XG,gn,DSLR
+10551,v10551_Veh1,10FORALERE00AC1P,"v10551_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0308s, max@0.0283s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10552,v10552_Veh1,10FORALERE00AC1P,"v10552_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0381s, max@0.1412s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10555,v10555_Veh1,10SEATLERE00AC1P,"v10555_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.06368s, max@0.0252s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+10556,v10556_Veh1,10FORALERE00AC1P,"v10556_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0249s, max@0.0218s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10557,v10557_Veh1,10FORALERE00AC1P,"v10557_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.1274s, max@0.1277s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10562,v10562_Veh1,10SEATLERE00AC1P,"v10562_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.01408s, max@0.0144s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+10576,v10576_Veh1,10FORALERE00AC1P,"v10576_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0513s, max@0.0507s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10635,v10635_Veh1,10DOORLERE00AC1P,"v10635_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0622s, max@0.0192s",LEFT REAR SILL AX,XG,gn,DSLR
+10638,v10638_Veh1,10FORALERE00AC1P,"v10638_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0519s, max@0.0548s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10642,v10642_Veh1,10SEATLERE00AC1P,"v10642_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.0108s, max@0.02088s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+10647,v10647_Veh1,10FORALERE00AC1P,"v10647_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0433s, max@0.0385s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10648,v10648_Veh1,10SEATLERE00AC1P,"v10648_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.01985s, max@0.0222s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+10651,v10651_Veh1,10FORALERE00AC1P,"v10651_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0469s, max@0.0488s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10652,v10652_Veh1,10SEATLERE00AC1P,"v10652_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.05995s, max@0.02175s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+10656,v10656_Veh1,10FORALERE00AC1P,"v10656_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0502s, max@0.0508s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10660,v10660_Veh1,10FORALERE00AC1P,"v10660_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0146s, max@0.0313s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10671,v10671_Veh1,10FORALERE00AC1P,"v10671_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0504s, max@0.0387s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10672,v10672_Veh1,10DOORLERE00AC1P,"v10672_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0475s, max@0.0473s",LEFT REAR SILL AX,XG,gn,DSLR
+10673,v10673_Veh1,10SEATLERE00AC1P,"v10673_093aq0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.05635s, max@0.0559s",LEFT REAR SEAT CROSSMEMBER AX -> EXCEEDED CALIBRATION RANGE AT 56.3MS,XG,gn,SELR
+10675,v10675_Veh1,10FORALERE00AC1P,"v10675_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0311s, max@0.0267s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10680,v10680_Veh1,10FORALERE00AC1P,"v10680_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0209s, max@0.023s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10681,v10681_Veh1,10DOORLERE00AC1P,"v10681_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0106s, max@0.0161s",LEFT REAR SILL AX,XG,gn,DSLR
+10682,v10682_Veh1,10SEATLERE00AC1P,"v10682_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.07344s, max@0.02392s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+10690,v10690_Veh1,10FORALERE00AC1P,"v10690_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0204s, max@0.0207s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10702,v10702_Veh1,10FORALERE00AC1P,"v10702_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0249s, max@0.0272s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10704,v10704_Veh1,10SEATLERE00AC1P,"v10704_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.03755s, max@0.03775s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+10706,v10706_Veh1,10FORALERE00AC1P,"v10706_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0264s, max@0.0262s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10709,v10709_Veh1,10SEATLERE00AC1P,"v10709_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.01s, max@0.0097s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+10712,v10712_Veh1,10DOORLERE00AC1P,"v10712_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.035s, max@0.0208s",LEFT REAR SILL AX,XG,gn,DSLR
+10713,v10713_Veh1,10SEATLERE00AC1P,"v10713_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.02512s, max@0.03s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+10714,v10714_Veh1,10SEATLERE00AC1P,"v10714_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.07295s, max@0.0217s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+10721,v10721_Veh1,10FORALERE00AC1P,"v10721_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0401s, max@0.0399s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10724,v10724_Veh1,10DOORLERE00AC1P,"v10724_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0173s, max@0.03s",LEFT REAR SILL AX,XG,gn,DSLR
+10725,v10725_Veh1,10SEATLERE00AC1P,"v10725_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0609s, max@0.06055s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+10732,v10732_Veh1,10SEATLERE00AC1P,"v10732_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.02304s, max@0.02352s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+10733,v10733_Veh1,10FORALERE00AC1P,"v10733_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0555s, max@0.0173s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10737,v10737_Veh1,10SEATLERE00AC1P,"v10737_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.04384s, max@0.02976s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+10763,v10763_Veh1,10DOORLERE00AC1P,"v10763_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0581s, max@0.0583s",LEFT REAR SILL AX,XG,gn,DSLR
+10768,v10768_Veh1,10DOORLERE00AC1P,"v10768_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.047s, max@0.0468s",LEFT REAR SILL AX,XG,gn,DSLR
+10770,v10770_Veh1,10FORALERE00AC1P,"v10770_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0378s, max@0.0258s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10778,v10778_Veh1,10FORALERE00AC1P,"v10778_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0539s, max@0.0488s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10793,v10793_Veh1,10SEATLERE00AC1P,"v10793_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.044s, max@0.0184s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+10797,v10797_Veh1,10FORALERE00AC1P,"v10797_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0205s, max@0.0202s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10807,v10807_Veh1,10SEATLERE00AC1P,"v10807_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.01955s, max@0.0236s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+10816,v10816_Veh1,10SEATLERE00AC1P,"v10816_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.0224s, max@0.02376s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+10826,v10826_Veh1,10FORALERE00AC1P,"v10826_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.05s, max@0.0483s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10830,v10830_Veh1,10SEATLERE00AC1P,"v10830_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.0456s, max@0.01744s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+10831,v10831_Veh1,10SEATLERE00AC1P,"v10831_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.02405s, max@0.0357s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+10836,v10836_Veh1,10SEATLERE00AC1P,"v10836_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0161s, max@0.0149s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+10837,v10837_Veh1,10FORALERE00AC1P,"v10837_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0164s, max@0.0221s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10865,v10865_Veh1,10SEATLERE00AC1P,"v10865_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.01785s, max@0.0081s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+10914,v10914_Veh1,10SEATLERE00AC1P,"v10914_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.01835s, max@0.02285s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+10917,v10917_Veh1,10FORALERE00AC1P,"v10917_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0451s, max@0.0348s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10918,v10918_Veh1,10SEATLERE00AC1P,"v10918_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.04544s, max@0.04584s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+10921,v10921_Veh1,10DOORLERE00AC1P,"v10921_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0473s, max@0.0471s",LEFT REAR SILL AX,XG,gn,DSLR
+10924,v10924_Veh1,10SEATLERE00AC1P,"v10924_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0321s, max@0.0338s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+10925,v10925_Veh1,10FORALERE00AC1P,"v10925_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0419s, max@0.0159s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10961,v10961_Veh1,10SEATLERE00AC1P,"v10961_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.04264s, max@0.02688s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+10962,v10962_Veh1,10DOORLERE00AC1P,"v10962_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0523s, max@0.0236s",LEFT REAR SILL AX,XG,gn,DSLR
+10963,v10963_Veh1,10FORALERE00AC1P,"v10963_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.054s, max@0.0277s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10966,v10966_Veh1,10FORALERE00AC1P,"v10966_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0332s, max@0.0232s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10970,v10970_Veh1,10DOORLERE00AC1P,"v10970_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0606s, max@0.0199s",LEFT REAR SILL AX,XG,gn,DSLR
+10971,v10971_Veh1,10SEATLERE00AC1P,"v10971_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.02735s, max@0.03025s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+10974,v10974_Veh1,10SEATLERE00AC1P,"v10974_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0346s, max@0.02915s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+10976,v10976_Veh1,10SEATLERE00AC1P,"v10976_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.0376s, max@0.02744s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+10977,v10977_Veh1,10DOORLERE00AC1P,"v10977_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0188s, max@0.0171s",LEFT REAR SILL AX,XG,gn,DSLR
+10982,v10982_Veh1,10FORALERE00AC1P,"v10982_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0391s, max@0.0385s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10986,v10986_Veh1,10SEATLERE00AC1P,"v10986_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.04245s, max@0.0225s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+10988,v10988_Veh1,10FORALERE00AC1P,"v10988_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0422s, max@0.0416s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+10993,v10993_Veh1,10DOORLERE00AC1P,"v10993_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0407s, max@0.0242s",LEFT REAR SILL AX,XG,gn,DSLR
+10999,v10999_Veh1,10SEATLERE00AC1P,"v10999_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.03905s, max@0.04495s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+11047,v11047_Veh1,10SEATLERE00AC1P,"v11047_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0117s, max@0.0143s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+11049,v11049_Veh1,10FORALERE00AC1P,"v11049_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0328s, max@0.0305s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+11053,v11053_Veh1,10SEATLERE00AC1P,"v11053_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.05905s, max@0.05965s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+11056,v11056_Veh1,10SEATLERE00AC1P,"v11056_093aq0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.037s, max@0.0374s","LEFT REAR SEAT CROSSMEMBER AX -> EXCEEDED CAL RANGE AT 23.1MS, 36.9MS",XG,gn,SELR
+11064,v11064_Veh1,10SEATLERE00AC1P,"v11064_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.02s, max@0.01565s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+11066,v11066_Veh1,10DOORLERE00AC1P,"v11066_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0402s, max@0.0185s",LEFT REAR SILL AX,XG,gn,DSLR
+11079,v11079_Veh1,10FORALERE00AC1P,"v11079_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0352s, max@0.021s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+11081,v11081_Veh1,10FORALERE00AC1P,"v11081_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0146s, max@0.0149s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+11095,v11095_Veh1,10DOORLERE00AC1P,"v11095_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0196s, max@0.0178s",LEFT REAR SILL AX,XG,gn,DSLR
+11096,v11096_Veh1,10SEATLERE00AC1P,"v11096_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.02795s, max@0.03025s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+11129,v11129_Veh1,10FORALERE00AC1P,"v11129_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0328s, max@0.0295s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+11146,v11146_Veh1,10FORALERE00AC1P,"v11146_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0265s, max@0.0306s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+11149,v11149_Veh1,10SEATLERE00AC1P,"v11149_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.04945s, max@0.04655s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+11264,v11264_Veh1,10DOORLERE00AC1P,"v11264_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0466s, max@0.0422s",LEFT REAR SILL AX,XG,gn,DSLR
+11268,v11268_Veh1,10FORALERE00AC1P,"v11268_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0205s, max@0.0207s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+11270,v11270_Veh1,10FORALERE00AC1P,"v11270_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0422s, max@0.021s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+11288,v11288_Veh1,10DOORLERE00AC1P,"v11288_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0288s, max@0.0318s",LEFT REAR SILL AX,XG,gn,DSLR
+11291,v11291_Veh1,10FORALERE00AC1P,"v11291_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0698s, max@0.0963s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+11295,v11295_Veh1,10DOORLERE00AC1P,"v11295_093af0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.052s, max@0.0207s","LEFT REAR SILL AX, CF AT 84.4 MS.",XG,gn,DSLR
+11296,v11296_Veh1,10FORALERE00AC1P,"v11296_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0377s, max@0.0379s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+11298,v11298_Veh1,10SEATLERE00AC1P,"v11298_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0477s, max@0.04665s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+11299,v11299_Veh1,10SEATLERE00AC1P,"v11299_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0484s, max@0.0365s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+11347,v11347_Veh1,10SEATLERE00AC1P,"v11347_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.02305s, max@0.0204s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+11350,v11350_Veh1,10SEATLERE00AC1P,"v11350_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.0524s, max@0.05456s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+11356,v11356_Veh1,10FORALERE00AC1P,"v11356_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0498s, max@0.0451s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+11377,v11377_Veh1,10DOORLERE00AC1P,"v11377_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.013s, max@0.0529s",LEFT REAR SILL AX,XG,gn,DSLR
+11378,v11378_Veh1,10SEATLERE00AC1P,"v11378_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.0692s, max@0.06864s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+11380,v11380_Veh1,10FORALERE00AC1P,"v11380_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0589s, max@0.0462s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+11383,v11383_Veh1,10DOORLERE00AC1P,"v11383_093af0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@-0.05s, max@-0.05s","LEFT REAR SILL AX, CHANNEL FAILED, NO DATA",XG,gn,DSLR
+11391,v11391_Veh1,10SEATLERE00AC1P,"v11391_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0223s, max@0.0339s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+11394,v11394_Veh1,10FORALERE00AC1P,"v11394_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0409s, max@0.0319s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+11396,v11396_Veh1,10DOORLERE00AC1P,"v11396_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0495s, max@0.0182s",LEFT REAR SILL AX,XG,gn,DSLR
+11399,v11399_Veh1,10FORALERE00AC1P,"v11399_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0131s, max@0.0121s",LEFT REAR SEAT CROSSMEMBER X - Low level cyclical noise observed throughout the data,XG,gn,FLLR
+11485,v11485_Veh1,10FORALERE00AC1P,"v11485_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0588s, max@0.0591s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+11490,v11490_Veh1,10FORALERE00AC1P,"v11490_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0161s, max@0.0164s",LEFT REAR SEAT CROSSMEMBER X - Low level cyclical noise observed throughout the data,XG,gn,FLLR
+11491,v11491_Veh1,10SEATLERE00AC1P,"v11491_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0723s, max@0.02565s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+11496,v11496_Veh1,10SEATLERE00AC1P,"v11496_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0605s, max@0.0275s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+11571,v11571_Veh1,10DOORLERE00AC1P,"v11571_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0531s, max@0.0519s","LEFT REAR SILL AX, CHANNEL FAILED, NO DATA",XG,gn,DSLR
+11572,v11572_Veh1,10FORALERE00AC1P,"v11572_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.018s, max@0.0186s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+11574,v11574_Veh1,10FORALERE00AC1P,"v11574_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0207s, max@0.0299s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+11575,v11575_Veh1,10FORALERE00AC1P,"v11575_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0401s, max@0.0275s",LEFT REAR SEAT CROSSMEMBER X - Low level cyclical noise observed throughout the data,XG,gn,FLLR
+11583,v11583_Veh1,10FORALERE00AC1P,"v11583_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.038s, max@0.0633s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+11584,v11584_Veh1,10SEATLERE00AC1P,"v11584_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.03865s, max@0.0155s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+11589,v11589_Veh1,10FORALERE00AC1P,"v11589_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.053s, max@0.0276s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+11591,v11591_Veh1,10SEATLERE00AC1P,"v11591_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0334s, max@0.03415s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+11594,v11594_Veh1,10FORALERE00AC1P,"v11594_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0376s, max@0.0397s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+11597,v11597_Veh1,10SEATLERE00AC1P,"v11597_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.04816s, max@0.04752s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+11618,v11618_Veh1,10DOORLERE00AC1P,"v11618_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0238s, max@0.0222s",LEFT REAR SILL AX,XG,gn,DSLR
+11660,v11660_Veh1,10DOORLERE00AC1P,"v11660_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0602s, max@0.0236s",LEFT REAR SILL AX,XG,gn,DSLR
+11663,v11663_Veh1,10FORALERE00AC1P,"v11663_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0491s, max@0.0245s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+11664,v11664_Veh1,10FORALERE00AC1P,"v11664_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0523s, max@0.0241s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+11668,v11668_Veh1,10FORALERE00AC1P,"v11668_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0183s, max@0.0216s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+11819,v11819_Veh1,10SEATLERE00AC1P,"v11819_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.05705s, max@0.0608s",LEFT REAR SEAT CROSSMEMBER AX,XG,gn,SELR
+11821,v11821_Veh1,10FORALERE00AC1P,"v11821_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0374s, max@0.0226s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14048,v14048_Veh1,10FORALERE00AC1P,"v14048_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0253s, max@0.0241s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14051,v14051_Veh1,10FORALERE00AC1P,"v14051_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0147s, max@0.0424s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14056,v14056_Veh1,10SEATLERE00AC1P,"v14056_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.02235s, max@0.0643s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+14059,v14059_Veh1,10FORALERE00AC1P,"v14059_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.019s, max@0.0211s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14062,v14062_Veh1,10SEATLERE00AC1P,"v14062_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.0156s, max@0.01944s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+14065,v14065_Veh1,10SEATLERE00AC1P,"v14065_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0143s, max@0.01115s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+14071,v14071_Veh1,10FORALERE00AC1P,"v14071_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0696s, max@0.0698s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14075,v14075_Veh1,10FORALERE00AC1P,"v14075_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0667s, max@0.0191s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14080,v14080_Veh1,10DOORLERE00AC1P,"v14080_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0359s, max@0.0138s",LEFT REAR SILL AX,XG,gn,DSLR
+14081,v14081_Veh1,10FORALERE00AC1P,"v14081_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0238s, max@0.0206s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14084,v14084_Veh1,10SEATLERE00AC1P,"v14084_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0118s, max@0.02525s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+14085,v14085_Veh1,10SEATLERE00AC1P,"v14085_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.02s, max@0.0264s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+14086,v14086_Veh1,10SEATLERE00AC1P,"v14086_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.04055s, max@0.031s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+14091,v14091_Veh1,10SEATLERE00AC1P,"v14091_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0459s, max@0.04765s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+14096,v14096_Veh1,100000LERE00AC1P,"v14096_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0165s, max@0.0296s",LEFT REAR SILL AX,XG,gn,DSLR
+14127,v14127_Veh1,100000LERE00AC1P,"v14127_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.03765s, max@0.05545s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+14214,v14214_Veh1,100000LERE00AC1P,"v14214_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0827s, max@0.0823s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14218,v14218_Veh1,10SEATLERE00AC1P,"v14218_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.01295s, max@0.01505s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+14242,v14242_Veh1,10SEATLERE00AC1P,"v14242_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.0232s, max@0.02576s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+14243,v14243_Veh1,10SEATLERE00AC1P,"v14243_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.05s, max@0.04512s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+14248,v14248_Veh1,10DOORLERE00AC1P,"v14248_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.056s, max@0.083s",LEFT REAR SILL AX,XG,gn,DSLR
+14252,v14252_Veh1,10SEATLERE00AC1P,"v14252_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0189s, max@0.0244s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+14257,v14257_Veh1,10FORALERE00AC1P,"v14257_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0454s, max@0.0199s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14258,v14258_Veh1,100000LERE00AC1P,"v14258_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0282s, max@0.0338s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14262,v14262_Veh1,10FORALERE00AC1P,"v14262_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0172s, max@0.0189s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14264,v14264_Veh1,10SEATLERE00AC1P,"v14264_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.05445s, max@0.028s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+14266,v14266_Veh1,10DOORLERE00AC1P,"v14266_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0372s, max@0.021s",LEFT REAR SILL AX,XG,gn,DSLR
+14271,v14271_Veh1,10SEATLERE00AC1P,"v14271_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0372s, max@0.04295s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+14272,v14272_Veh1,10FORALERE00AC1P,"v14272_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0568s, max@0.0272s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14282,v14282_Veh1,10SEATLERE00AC1P,"v14282_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.04995s, max@0.04695s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+14283,v14283_Veh1,10SEATLERE00AC1P,"v14283_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.02872s, max@0.02944s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+14289,v14289_Veh1,10SEATLERE00AC1P,"v14289_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.06715s, max@0.06865s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+14292,v14292_Veh1,10FORALERE00AC1P,"v14292_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0647s, max@0.0577s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14294,v14294_Veh1,10DOORLERE00AC1P,"v14294_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0454s, max@0.0478s",LEFT REAR SILL AX,XG,gn,DSLR
+14295,v14295_Veh1,10SEATLERE00AC1P,"v14295_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.05528s, max@0.05584s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+14299,v14299_Veh1,10DOORLERE00AC1P,"v14299_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0242s, max@0.0233s",LEFT REAR SILL AX,XG,gn,DSLR
+14316,v14316_Veh1,10FORALERE00AC1P,"v14316_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0462s, max@0.0497s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14353,v14353_Veh1,100000LERE00AC1P,"v14353_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0189s, max@0.0192s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14356,v14356_Veh1,10DOORLERE00AC1P,"v14356_236aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2000; min@0.04165s, max@0.0188s",DRIVER SILL LR X ACCELERATION,XG,gn,DSLR
+14357,v14357_Veh1,10DOORLERE00AC1P,"v14357_236aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2000; min@0.0399s, max@0.03485s",DRIVER SILL LR X ACCELERATION,XG,gn,DSLR
+14358,v14358_Veh1,10DOORLERE00AC1P,"v14358_236aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2000; min@0.0197s, max@0.02335s",DRIVER SILL LR X ACCELERATION,XG,gn,DSLR
+14362,v14362_Veh1,10SEATLERE00AC1P,"v14362_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.06856s, max@0.0608s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+14366,v14366_Veh1,10FORALERE00AC1P,"v14366_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0286s, max@0.0236s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14381,v14381_Veh1,10FORALERE00AC1P,"v14381_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.04s, max@0.0477s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14385,v14385_Veh1,10SEATLERE00AC1P,"v14385_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0248s, max@0.02435s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+14386,v14386_Veh1,10DOORLERE00AC1P,"v14386_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0156s, max@0.0158s",LEFT REAR SILL AX,XG,gn,DSLR
+14394,v14394_Veh1,10SEATLERE00AC1P,"v14394_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0438s, max@0.04515s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+14395,v14395_Veh1,10FORALERE00AC1P,"v14395_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0706s, max@0.0699s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14396,v14396_Veh1,10SEATLERE00AC1P,"v14396_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=2000; min@0.03024s, max@0.03664s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+14425,v14425_Veh1,10ENGN000000AC1P,"v14425_095aq0.uds; Sensor: type=AC, Attach=ENGN, Prefilter Frequency=2800; min@0.0427s, max@0.0425s",TOP OF ENGINE X: Data curve has almost similar profile to Floorpan X channel.,XG,gn,ENGN
+14427,v14427_Veh1,10SEATLERE00AC1P,"v14427_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.05015s, max@0.07475s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+14438,v14438_Veh1,10DOORLERE00AC1P,"v14438_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.036s, max@0.0222s",LEFT REAR SILL AX,XG,gn,DSLR
+14445,v14445_Veh1,10FORALERE00AC1P,"v14445_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0284s, max@0.0289s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14466,v14466_Veh1,10FORALERE00AC1P,"v14466_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0221s, max@0.0197s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14470,v14470_Veh1,10FORALERE00AC1P,"v14470_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.027s, max@0.0274s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14475,v14475_Veh1,10DOORLERE00AC1P,"v14475_238aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=4000; min@0.0481s, max@0.02905s",DOOR SILL LR X ACCELERATION,XG,gn,DSLR
+14476,v14476_Veh1,10DOORLERE00AC1P,"v14476_238aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=4000; min@0.01285s, max@0.02615s",DOOR SILL LR X ACCELERATION,XG,gn,DSLR
+14477,v14477_Veh1,10DOORLERE00AC1P,"Curve 238 unavailable; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=4000; min@-42949.7s, max@-42949.7s",DOOR SILL LR X ACCELERATION,XG,gn,DSLR
+14478,v14478_Veh1,10DOORLERE00AC1P,"v14478_238aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=4000; min@0.0305s, max@0.0297s",DOOR SILL LR X ACCELERATION,XG,gn,DSLR
+14479,v14479_Veh1,10DOORLERE00AC1P,"v14479_238aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=4000; min@0.0309s, max@0.03195s",DOOR SILL LR X ACCELERATION,XG,gn,DSLR
+14484,v14484_Veh1,10FORALERE00AC1P,"v14484_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0187s, max@0.0205s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14490,v14490_Veh1,10FORALERE00AC1P,"v14490_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0124s, max@0.0131s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14495,v14495_Veh1,10FORALERE00AC1P,"v14495_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0287s, max@0.0319s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14497,v14497_Veh1,10SEATLERE00AC1P,"v14497_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=1650; min@0.02208s, max@0.02064s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+14500,v14500_Veh1,10SEATLERE00AC1P,"v14500_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0362s, max@0.03825s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+14509,v14509_Veh1,10DOORLERE00AC1P,"v14509_238aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=4000; min@0.04515s, max@0.0453s",DOOR SILL LR X ACCELERATION,XG,gn,DSLR
+14990,v14990_Veh1,10FORALERE00AC1P,"v14990_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0274s, max@0.0252s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+14995,v14995_Veh1,10SEATLERE00AC1P,"v14995_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.04505s, max@0.04565s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+15005,v15005_Veh1,10FORALERE00AC1P,"v15005_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0762s, max@0.0749s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15011,v15011_Veh1,10FORALERE00AC1P,"v15011_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0452s, max@0.0318s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15024,v15024_Veh1,10FORALERE00AC1P,"v15024_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0422s, max@0.0366s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15027,v15027_Veh1,10FORALERE00AC1P,"v15027_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0336s, max@0.032s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15029,v15029_Veh1,10FORALERE00AC1P,"v15029_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0628s, max@0.0619s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15044,v15044_Veh1,10FORALERE00AC1P,"v15044_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0239s, max@0.0252s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15045,v15045_Veh1,10DOORLERE00AC1P,"v15045_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.024s, max@0.0177s",LEFT REAR SILL AX,XG,gn,DSLR
+15046,v15046_Veh1,10SEATLERE00AC1P,"v15046_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=1650; min@0.0468s, max@0.04424s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+15047,v15047_Veh1,10DOORLERE00AC1P,"v15047_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.017s, max@0.0327s",LEFT REAR SILL AX,XG,gn,DSLR
+15050,v15050_Veh1,10SEATLERE00AC1P,"v15050_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.02215s, max@0.02535s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+15060,v15060_Veh1,10FORALERE00AC1P,"v15060_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0132s, max@0.013s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15064,v15064_Veh1,10SEATLERE00AC1P,"v15064_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=1650; min@0.02432s, max@0.0292s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+15070,v15070_Veh1,10DOORLERE00AC1P,"v15070_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0336s, max@0.0364s",LEFT REAR SILL AX,XG,gn,DSLR
+15074,v15074_Veh1,10FORALERE00AC1P,"v15074_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0225s, max@0.0245s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15081,v15081_Veh1,10SEATLERE00AC1P,"v15081_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=1650; min@0.02616s, max@0.02592s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+15087,v15087_Veh1,10DOORLERE00AC1P,"v15087_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.014s, max@0.0155s",LEFT REAR SILL AX,XG,gn,DSLR
+15092,v15092_Veh1,10FORALERE00AC1P,"v15092_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0244s, max@0.0246s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15101,v15101_Veh1,10FORALERE00AC1P,"v15101_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.052s, max@0.024s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15124,v15124_Veh1,10SEATLERE00AC1P,"v15124_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=1650; min@0.03272s, max@0.01544s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+15182,v15182_Veh1,10FORALERE00AC1P,"v15182_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0264s, max@0.0279s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15237,v15237_Veh1,10SEATLERE00AC1P,"v15237_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.02565s, max@0.02305s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+15244,v15244_Veh1,10FORALERE00AC1P,"v15244_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0206s, max@0.0185s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15250,v15250_Veh1,10SEATLERE00AC1P,"v15250_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0449s, max@0.0447s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+15261,v15261_Veh1,10SEATLERE00AC1P,"v15261_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.04255s, max@0.04285s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+15266,v15266_Veh1,10FORALERE00AC1P,"v15266_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0503s, max@0.0428s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15297,v15297_Veh2,20DOORLEFR00AC2P,"v15297_101aa0.uds; Sensor: type=AC, Attach=DSLF, Prefilter Frequency=2000; min@0.0284s, max@0.00385s",11SILBLEFR00ACYA. LEFT SIDE SILL AT FRONT SEAT AY,YG,gn,DSLF
+15299,v15299_Veh1,10SEATLERE00AC1P,"v15299_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.02625s, max@0.0274s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+15302,v15302_Veh1,10SEATLERE00AC1P,"v15302_099aq0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0455s, max@0.0451s",LEFT REAR SEAT CROSSMEMBER X REDUNDANT ->EXCEEDED CAL RANGE AT 45.1 MS,XG,gn,SELR
+15305,v15305_Veh1,10DOORLERE00AC1P,"v15305_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0494s, max@0.0202s",LEFT REAR SILL AX,XG,gn,DSLR
+15310,v15310_Veh1,10FORALERE00AC1P,"v15310_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0236s, max@0.0498s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15311,v15311_Veh1,10FORALERE00AC1P,"v15311_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0328s, max@0.0304s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15312,v15312_Veh1,10DOORLERE00AC1P,"v15312_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0203s, max@0.0197s",LEFT REAR SILL AX,XG,gn,DSLR
+15319,v15319_Veh1,10SEATLERE00AC1P,"v15319_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0374s, max@0.03765s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+15324,v15324_Veh1,10FORALERE00AC1P,"v15324_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0608s, max@0.0231s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15330,v15330_Veh1,10DOORLERE00AC1P,"v15330_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0099s, max@0.0394s",LEFT REAR SILL AX,XG,gn,DSLR
+15335,v15335_Veh1,10SEATLERE00AC1P,"v15335_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0567s, max@0.0565s",LEFT REAR SEAT CROSSMEMBER X ACCELERATION,XG,gn,SELR
+15337,v15337_Veh1,10SEATLERE00AC1P,"v15337_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.06505s, max@0.0649s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+15339,v15339_Veh1,10FORALERE00AC1P,"v15339_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0447s, max@0.0418s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15347,v15347_Veh1,10FORALERE00AC1P,"v15347_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0122s, max@0.0126s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15349,v15349_Veh1,10SEATLERE00AC1P,"v15349_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.04255s, max@0.04305s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+15357,v15357_Veh1,10DOORLEFR00AC1P,"v15357_230aa0.uds; Sensor: type=AC, Attach=DSLF, Prefilter Frequency=4000; min@0.04435s, max@0.01425s",LEFT SILL ACCEL X,XG,gn,DSLF
+15358,v15358_Veh1,10FORALERE00AC1P,"v15358_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0336s, max@0.0338s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15359,v15359_Veh1,10SEATLERE00AC1P,"v15359_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0554s, max@0.0563s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,SELR
+15415,v15415_Veh1,10DOORLERE00AC1P,"v15415_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0257s, max@0.0269s",LEFT REAR SILL AX,XG,gn,DSLR
+15451,v15451_Veh1,10SEATLERE00AC1P,"v15451_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0179s, max@0.0181s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
+15453,v15453_Veh1,10FORALERE00AC1P,"v15453_031aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0166s, max@0.0174s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15454,v15454_Veh1,10SEATLERE00AC1P,"v15454_101aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.0617s, max@0.06215s",LEFT REAR CROSSMEMBER X,XG,gn,SELR
+15459,v15459_Veh1,10DOORLERE00AC1P,"v15459_093aa0.uds; Sensor: type=AC, Attach=DSLR, Prefilter Frequency=2900; min@0.0133s, max@0.0197s",LEFT REAR SILL AX,XG,gn,DSLR
+15483,v15483_Veh1,10FORALERE00AC1P,"v15483_031aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0329s, max@0.0306s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15484,v15484_Veh1,10FORALERE00AC1P,"v15484_031aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0491s, max@0.0249s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15485,v15485_Veh1,10FORALERE00AC1P,"v15485_031aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0257s, max@0.0245s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15487,v15487_Veh1,10FORALERE00AC1P,"v15487_031aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0147s, max@0.0149s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15490,v15490_Veh1,10FORALERE00AC1P,"v15490_031aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0211s, max@0.0209s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15491,v15491_Veh1,10FORALERE00AC1P,"v15491_031aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0465s, max@0.0175s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15494,v15494_Veh1,10FORALERE00AC1P,"v15494_031aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0354s, max@0.039s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15496,v15496_Veh1,10FORALERE00AC1P,"v15496_031aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0287s, max@0.0253s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15498,v15498_Veh1,10FORALERE00AC1P,"v15498_031aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.033s, max@0.0399s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15499,v15499_Veh1,10FORALERE00AC1P,"v15499_031aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0517s, max@0.0513s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15500,v15500_Veh1,10FORALERE00AC1P,"v15500_031aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.019s, max@0.0192s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15501,v15501_Veh1,10FORALERE00AC1P,"v15501_031aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0241s, max@0.0142s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15503,v15503_Veh1,10FORALERE00AC1P,"v15503_031aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@-85899.4s, max@-85899.4s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15504,v15504_Veh1,10FORALERE00AC1P,"v15504_031aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0268s, max@0.0259s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15507,v15507_Veh1,10FORALERE00AC1P,"v15507_093aa0.uds; Sensor: type=AC, Attach=FLLR, Prefilter Frequency=2800; min@0.0346s, max@0.0349s",LEFT REAR SEAT CROSSMEMBER X,XG,gn,FLLR
+15509,v15509_Veh1,10SEATLERE00AC1P,"v15509_093aa0.uds; Sensor: type=AC, Attach=SELR, Prefilter Frequency=4000; min@0.052s, max@0.05315s",CROSSMEMBER LEFT REAR X,XG,gn,SELR
