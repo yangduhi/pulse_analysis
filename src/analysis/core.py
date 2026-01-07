@@ -19,6 +19,7 @@ class CrashSignal:
     velocity_kph: np.ndarray  # 속도 (km/h)
     displacement_m: np.ndarray  # 변위 (m)
     sample_rate: float  # 샘플링 레이트 (Hz)
+    impact_start_index: int = 0 # 충돌 시작 인덱스 (T0)
 
     @property
     def dt(self) -> float:

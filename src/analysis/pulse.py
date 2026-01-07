@@ -165,40 +165,76 @@ class CrashPulseAnalyzer:
 
         return None
 
+    def is_channel_valid(self, channel_name: str) -> bool:
+        """메타데이터를 확인하여 센서 고장이나 신뢰성 문제가 있는지 체크합니다."""
+        channel = self.find_channel_by_name(channel_name)
+        if not channel:
+            return False
+        
+        props = channel.properties
+        desc = (str(props.get("description", "")) + 
+                str(props.get("INST_INSCOM", "")) + 
+                str(props.get("COMMENT", ""))).upper()
+        
+        # 고장 또는 품질 불량 키워드 확인
+        bad_keywords = ["FAIL", "QUESTION", "BAD", "ERROR"]
+        if any(kw in desc for kw in bad_keywords):
+            logger.warning(f"Channel {channel_name} marked as invalid in metadata: {desc[:50]}...")
+            return False
+        return True
+
     def preprocess_signal(
         self, time_s: np.ndarray, raw_g: np.ndarray
     ) -> Tuple[np.ndarray, np.ndarray]:
-        # Bias Removal
-        pre_impact_mask = time_s < 0
-        if np.any(pre_impact_mask):
+        # Bias Removal (Robust)
+        # Exclude exact 0.0 (muted) samples from bias calculation
+        is_active = (raw_g != 0.0)
+        pre_impact_mask = (time_s < -0.005) & is_active
+        
+        offset = 0.0
+        if np.sum(pre_impact_mask) > 10:
             offset = np.mean(raw_g[pre_impact_mask])
         else:
-            offset = np.mean(raw_g[:10])
+            # If no pre-impact active data, try first active samples
+            active_indices = np.where(is_active)[0]
+            if len(active_indices) > 0:
+                first_active = active_indices[0]
+                # If impact is far enough, use start of active signal
+                # (Simple fallback for tests starting at 0)
+                offset = np.mean(raw_g[first_active : first_active + 20])
+        
         zeroed_g = raw_g - offset
 
         # Polarity Check (감속 = -G, 양수 피크면 반전)
-        check_idx = np.searchsorted(time_s, 0.15)
-        if check_idx > 5:
-            segment = zeroed_g[:check_idx]
-            peak_val = segment[np.argmax(np.abs(segment))]
-            if peak_val > 0:
-                zeroed_g = zeroed_g * -1
+        # A deceleration pulse's integral should be negative.
+        # If the sum of the signal is positive, it's likely inverted.
+        if np.sum(zeroed_g) > 0:
+            zeroed_g = zeroed_g * -1
 
         return time_s, zeroed_g
 
     def get_clean_pulse_data(self, channel_name: Optional[str] = None) -> Dict:
-        if channel_name:
-            channel = self.find_channel_by_name(channel_name)
-            if not channel:
-                return {"error": f"Channel '{channel_name}' not found."}
-        else:
-            channel = self.find_vehicle_accel_channel()
-            if not channel:
-                return {
-                    "error": "No suitable X-axis accelerometer found (Sill/Crossmember/Pillar)."
-                }
+        # Initialize result dictionary
+        pulse_data_result = {}
 
+        # Try to find the channel specified by name
+        found_channel = None
+        if channel_name:
+            found_channel = self.find_channel_by_name(channel_name)
+        
+        # If specified channel not found, or no channel_name provided, try to find a suitable vehicle accel channel
+        if not found_channel:
+            found_channel = self.find_vehicle_accel_channel()
+        
+        if not found_channel:
+            pulse_data_result["error"] = f"No suitable channel found for analysis (specified: {channel_name})."
+            return pulse_data_result
+        
+        channel = found_channel
         props = channel.properties
+        pulse_data_result["meta"] = props
+        pulse_data_result["sensor_name"] = channel.name
+        pulse_data_result["sensor_loc"] = props.get("INST_INSCOM") or props.get("SENLOCD", "Unknown")
 
         # Time Vector
         try:
@@ -211,10 +247,12 @@ class CrashPulseAnalyzer:
                 raw_g = channel[:]
                 time_s = channel.time_track()
                 dt = time_s[1] - time_s[0] if len(time_s) > 1 else 1e-4
-        except:
-            return {"error": "Time vector construction failed"}
+            pulse_data_result["fs"] = 1.0 / dt
+        except Exception:
+            pulse_data_result["error"] = "Time vector construction failed"
+            return pulse_data_result
 
-        # Velocity
+        # Velocity (impact_velocity_kph)
         impact_velocity_kph = None
         speed_keys = ["INST_INIVEL", "TEST_CLSSPD", "VEH_VEHSPD", "CLOSING_SPEED"]
         for key in speed_keys:
@@ -224,13 +262,14 @@ class CrashPulseAnalyzer:
             if val:
                 try:
                     f_val = float(val)
-                    if f_val > 1.0:
+                    if f_val > 1.0: # Only consider if value is realistic
                         impact_velocity_kph = f_val
                         break
-                except:
+                except ValueError:
                     continue
+        pulse_data_result["impact_velocity_kph"] = impact_velocity_kph
 
-        # Angle
+        # Angle (impact_angle_deg)
         impact_angle = 0.0
         angle_keys = ["TEST_IMPANG", "IMPANG", "IMPACT_ANGLE"]
         for key in angle_keys:
@@ -241,19 +280,25 @@ class CrashPulseAnalyzer:
                 try:
                     impact_angle = float(val)
                     break
-                except:
+                except ValueError:
                     continue
+        pulse_data_result["impact_angle_deg"] = impact_angle
+
+        # Truncate data to -50ms to 250ms range (allow pre-impact for bias removal)
+        time_mask = (time_s >= -0.050) & (time_s <= 0.250)
+        time_s = time_s[time_mask]
+        raw_g = raw_g[time_mask]
+
+        # If data points are too few after truncation, return an error, but with extracted metadata
+        if len(time_s) < 10:
+             pulse_data_result["error"] = "Not enough data points in the 0-150ms range."
+             return pulse_data_result
 
         # Preprocess
         clean_time, clean_g = self.preprocess_signal(time_s, raw_g)
+        
+        pulse_data_result["time_s"] = clean_time
+        pulse_data_result["accel_g"] = clean_g
+        
+        return pulse_data_result
 
-        return {
-            "time_s": clean_time,
-            "accel_g": clean_g,
-            "fs": 1.0 / dt,
-            "impact_velocity_kph": impact_velocity_kph,
-            "impact_angle_deg": impact_angle,
-            "meta": props,
-            "sensor_name": channel.name,
-            "sensor_loc": props.get("INST_INSCOM") or props.get("SENLOCD", "Unknown"),
-        }
