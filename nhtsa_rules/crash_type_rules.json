@@ -1,0 +1,102 @@
+{
+  "description": "Rules for Detailed Classification of Crash Test Type",
+  "logic_priority": ["db_crash_type", "vdi_code", "metadata_keyword", "object_code_existence"],
+  "rules": {
+    "CORE_CRASH_TESTS": {
+      "FRONTAL": {
+        "FIXED_WALL": {
+          "description": "Full Width Rigid Barrier / Flat Barrier",
+          "db_keywords": ["VEHICLE INTO BARRIER"],
+          "vdi_indicators": ["12FDE", "12FDA"],
+          "metadata_keywords": ["FULL WIDTH", "RIGID BARRIER", "HEAD ON", "0 DEGREE", "FLAT", "INTO BARRIER"],
+          "criteria": {
+            "angle_abs_max": 15,
+            "offset_abs_max": 5
+          }
+        },
+        "OFFSET": {
+          "description": "40% Offset Deformable Barrier (ODB)",
+          "metadata_keywords": ["OFFSET", "DEFORMABLE", "OVERLAP", "ODB"],
+          "criteria": {
+            "angle_abs_max": 15,
+            "offset_abs_min": 10
+          }
+        },
+        "SMALL_OVERLAP": {
+          "description": "Small Overlap (SORB)",
+          "metadata_keywords": ["SMALL OVERLAP", "SORB", "25%"]
+        }
+      },
+      "SIDE": {
+        "MDB": {
+          "description": "Moving Deformable Barrier into Vehicle",
+          "db_keywords": ["IMPACTOR INTO VEHICLE"],
+          "vdi_indicators": ["03", "09"],
+          "metadata_keywords": ["MDB", "MOVING", "BARRIER INTO", "SIDE IMPACT", "LATERAL"],
+          "object_code_required": ["20"],
+          "criteria": {
+            "angle_ranges": [[60, 120], [240, 300]]
+          }
+        },
+        "POLE": {
+          "description": "Vehicle into Rigid Pole",
+          "db_keywords": ["VEHICLE INTO POLE"],
+          "vdi_indicators": ["03", "09"],
+          "metadata_keywords": ["POLE", "RIGID POLE", "75 DEGREE", "OBLIQUE POLE"],
+          "object_code_required": ["00"],
+          "object_code_forbidden": ["20"],
+          "criteria": {
+             "angle_ranges": [[60, 120], [240, 300]]
+          }
+        }
+      },
+      "REAR": {
+        "MOVING_BARRIER": {
+          "description": "Rear Impact",
+          "vdi_indicators": ["06"],
+          "metadata_keywords": ["REAR", "FMVSS 301"],
+          "criteria": {
+            "angle_diff_180_max": 15
+          }
+        }
+      }
+    },
+    "NON_CRASH_TESTS": {
+      "SLED": {
+        "description": "Sled Test (With/Without Body)",
+        "db_keywords": ["SLED"],
+        "metadata_keywords": ["SLED TEST", "HYGE"]
+      },
+      "OOP_AIRBAG": {
+        "description": "Low Risk Deployment / Out of Position",
+        "db_keywords": ["LOW RISK DEPLOYMENT"],
+        "metadata_keywords": ["LOW RISK", "OOP", "OUT OF POSITION"]
+      },
+      "STATIC_AIRBAG": {
+        "description": "Static Airbag Test",
+        "db_keywords": ["STATIC AIR BAG"],
+        "metadata_keywords": ["STATIC AIRBAG", "STATIC AB"]
+      },
+      "ROLLOVER": {
+        "description": "Rollover Test",
+        "db_keywords": ["ROLLOVER"],
+        "metadata_keywords": ["ROLLOVER", "FMVSS 208 ROLL"]
+      },
+      "PEDESTRIAN": {
+        "description": "Pedestrian Impact Test",
+        "db_keywords": ["PEDESTRIAN"],
+        "metadata_keywords": ["PEDESTRIAN"]
+      },
+      "ADAS": {
+        "description": "Advanced Driver Assistance Systems",
+        "db_keywords": ["WARNING PERFORMANCE", "TRAFFIC JAM"],
+        "metadata_keywords": ["FCW", "LDW", "AEB", "BRAKE ASSIST"]
+      },
+      "COMPONENT": {
+        "description": "Component / Impactor Test",
+        "db_keywords": ["IMPACTOR INTO"],
+        "metadata_keywords": ["IMPACTOR", "FMVSS 202"]
+      }
+    }
+  }
+}
