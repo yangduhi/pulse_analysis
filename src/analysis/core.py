@@ -20,6 +20,7 @@ class CrashSignal:
     displacement_m: np.ndarray  # 변위 (m)
     sample_rate: float  # 샘플링 레이트 (Hz)
     impact_start_index: int = 0 # 충돌 시작 인덱스 (T0)
+    bias_value: float = 0.0 # 적용된 Bias (0점 보정값)
 
     @property
     def dt(self) -> float:

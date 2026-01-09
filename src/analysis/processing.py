@@ -9,7 +9,11 @@ from src.analysis.core import CrashSignal
 
 
 class SignalProcessor:
-    """신호 처리 전용 클래스"""
+    """
+    [최종 수정] Signal Processor V3
+    1. Bias Search Window 축소 (30ms -> 10ms) 및 탐색 한계 축소 (40% -> 20%)
+    2. T0 Fallback 로직 추가 (탐색 실패 시 Anchor 기준으로 강제 설정)
+    """
 
     @staticmethod
     def process(
@@ -17,152 +21,139 @@ class SignalProcessor:
         raw_g: np.ndarray,
         cfc: int = 60,
         known_impact_velocity_mps: float = None,
-        auto_polarity_flip: bool = True, # 옵션으로 분리
-        is_rear_impact: bool = False     # 충돌 모드 고려
+        search_window_ms: float = 10.0, # [수정] 윈도우 크기 축소 (충돌 전 짧은 구간 대응)
     ) -> CrashSignal:
         
-        # 1. 데이터 검증 및 초기화
-        if len(time_s) < 10:
-            raise ValueError("Data too short")
-
+        # 1. Basic Setup
+        if len(time_s) < 10: raise ValueError("Data too short")
         dt = time_s[1] - time_s[0]
         fs = 1.0 / dt
 
-        # 2. CFC 필터링 (SAE J211)
+        # 2. Filtering
         filtered_g = SignalProcessor.apply_cfc_filter(raw_g, fs, cfc)
 
-        # 3. [Bias Removal] 수정된 로직
-        # 1단계: 초기 20ms의 중앙값(Median)으로 1차 보정
-        n_init = int(0.020 * fs)
-        n_init = min(n_init, len(filtered_g) // 10) # 데이터가 짧을 경우 안전장치
-        
-        initial_bias = np.median(filtered_g[:n_init])
-        
-        # 2단계: 정밀 보정 (Trigger 전 가장 평탄한 구간 탐색)
-        # Trigger 탐색 (임시로 1차 보정된 데이터 사용)
-        temp_g = filtered_g - initial_bias
-        trigger_threshold = 0.5
-        trigger_indices = np.where(np.abs(temp_g) > trigger_threshold)[0]
-        
-        final_offset = initial_bias # 기본값
+        # 3. Bias Removal
+        # [수정] 충돌 데이터 혼입 방지를 위해 탐색 비율을 20%로 제한
+        final_bias = SignalProcessor.find_best_bias(
+            filtered_g, fs, window_ms=search_window_ms, limit_ratio=0.2
+        )
+        corrected_g = filtered_g - final_bias
+        accel_mps2 = corrected_g * 9.80665
 
-        trigger_idx = 0 # Initialize for later scope usage
+        # 4. Anchor & Backtrack T0 Detection
+        start_idx = SignalProcessor.find_impact_start_robust(
+            accel_mps2, fs, anchor_g=-5.0, release_g=-0.5
+        )
         
-        if len(trigger_indices) > 0:
-            trigger_idx = trigger_indices[0]
-            
-            # 탐색 범위: Trigger 5ms 전부터 최대 50ms 전까지
-            margin = int(0.005 * fs)
-            window_len = int(0.010 * fs)
-            search_end = max(0, trigger_idx - margin)
-            search_start = max(0, search_end - int(0.050 * fs))
-
-            if search_end - search_start > window_len:
-                best_var = float('inf')
-                
-                # 윈도우 슬라이딩하며 분산이 최소인 구간 찾기
-                for i in range(search_start, search_end - window_len + 1):
-                    # *중요*: 원본 filtered_g에서 구간을 추출해야 실제 DC Offset을 알 수 있음
-                    window = filtered_g[i : i + window_len]
-                    curr_var = np.var(window)
-                    
-                    if curr_var < best_var:
-                        best_var = curr_var
-                        # 분산이 최소인 구간의 평균이 가장 신뢰할 수 있는 Bias
-                        final_offset = np.mean(window) 
-                
-                # 만약 최소 분산이 너무 크다면(노이즈가 심함), 초기 Bias 유지
-                if best_var > 0.1: 
-                    final_offset = initial_bias
-
-        # 최종 Bias 적용
-        filtered_g_corrected = filtered_g - final_offset
-        accel_mps2 = filtered_g_corrected * 9.80665
-
-        # 4. [Polarity Correction] 수정된 로직
-        # 전방 충돌인데 평균 가속도가 양수(가속)라면 뒤집기
-        # 후방 충돌(is_rear_impact=True)일 경우 로직 건너뜀
-        if auto_polarity_flip and not is_rear_impact:
-             # Trigger 이후 충돌 구간의 평균 확인
-            check_end = min(len(accel_mps2), trigger_idx + int(0.1 * fs)) if len(trigger_indices) > 0 else len(accel_mps2)
-            check_start = trigger_indices[0] if len(trigger_indices) > 0 else 0
-            
-            segment_mean = np.mean(accel_mps2[check_start:check_end])
-            
-            if segment_mean > 0: # 감속이어야 하는데 양수라면
-                accel_mps2 = -accel_mps2
-                filtered_g_corrected = -filtered_g_corrected
-
-        # 5. [Physics Correction] T0 탐색 및 초기화
-        # 감속(-0.5g) 시작점 탐색
-        threshold_acc = -0.5 * 9.80665
-        t0_candidates = np.where(accel_mps2 < threshold_acc)[0]
-        
-        start_idx = 0
-        if len(t0_candidates) > 0:
-            first_cross = t0_candidates[0]
-            # Cross 지점에서 뒤로 가며 Zero-Crossing(혹은 local max) 찾기
-            lookback_limit = max(0, first_cross - int(0.020 * fs))
-            # 구간 내에서 0에 가장 가까운 지점(절대값 최소)
-            local_segment = np.abs(accel_mps2[lookback_limit:first_cross+1])
-            local_min_rel_idx = np.argmin(local_segment)
-            start_idx = lookback_limit + local_min_rel_idx
-            
-        # T0 이전 데이터 0으로 강제 (Pre-impact noise 제거)
+        # [Zero Padding] T0 이전 데이터 완전 소거
         accel_mps2[:start_idx] = 0.0
-        filtered_g_corrected[:start_idx] = 0.0 # Corrected data also needs zeroing
-        
-        # 6. 적분 (Velocity & Displacement)
+        corrected_g[:start_idx] = 0.0
+
+        # 5. Integration (Velocity)
         initial_v = known_impact_velocity_mps if known_impact_velocity_mps is not None else 0.0
-        
-        # scipy 적분 함수 호환성
         integ_func = getattr(integrate, "cumulative_trapezoid", integrate.cumtrapz)
         
         velocity_mps = np.full_like(time_s, initial_v)
-        # T0 이후부터 적분 수행
         if start_idx < len(time_s) - 1:
             delta_v = integ_func(accel_mps2[start_idx:], time_s[start_idx:], initial=0)
             velocity_mps[start_idx:] = initial_v + delta_v
-
-        # 차량 정지 시점(Rebound 시작점) 탐색
-        # 속도가 0 이하로 떨어지거나, 다시 증가하는(Rebound) 지점 등 정의 필요
-        # 여기서는 속도가 0 이하가 되는 첫 지점으로 정의
+            
+        # Stop Detection
         stop_indices = np.where(velocity_mps[start_idx:] <= 0)[0]
         end_idx = len(time_s) - 1
-        
         if len(stop_indices) > 0:
             end_idx = start_idx + stop_indices[0]
-            # 물리적으로 정지 후에는 변위 고정
             velocity_mps[end_idx+1:] = 0.0
 
+        # 6. Integration (Displacement)
         displacement_m = np.zeros_like(time_s)
         if start_idx < end_idx:
             delta_s = integ_func(velocity_mps[start_idx:end_idx+1], time_s[start_idx:end_idx+1], initial=0)
             displacement_m[start_idx:end_idx+1] = delta_s
-            displacement_m[end_idx+1:] = delta_s[-1] # 최종 변위 유지
+            
+            # [강제 보정] T0 이전 변위 0 처리
+            displacement_m[:start_idx] = 0.0
+            displacement_m[end_idx+1:] = displacement_m[end_idx]
 
         return CrashSignal(
             time_ms=time_s * 1000,
             raw_accel_g=raw_g,
-            filtered_accel_g=filtered_g_corrected,
+            filtered_accel_g=corrected_g,
             velocity_kph=velocity_mps * 3.6,
             displacement_m=displacement_m,
             sample_rate=fs,
-            impact_start_index=start_idx
+            impact_start_index=start_idx,
+            bias_value=final_bias
         )
 
     @staticmethod
-    def apply_cfc_filter(data: np.ndarray, fs: float, cfc: int) -> np.ndarray:
-        # Cutoff Frequency Calculation
-        if cfc == 60:
-            cutoff = 100.0
-        elif cfc == 180:
-            cutoff = 300.0
+    def find_impact_start_robust(accel_mps2: np.ndarray, fs: float, anchor_g: float = -5.0, release_g: float = -0.5) -> int:
+        anchor_val = anchor_g * 9.80665
+        release_val = release_g * 9.80665
+        
+        # 1. Anchor 탐색
+        hard_impact_indices = np.where(accel_mps2 < anchor_val)[0]
+        
+        if len(hard_impact_indices) == 0:
+            # Anchor 미발견 시 (매우 약한 충돌) -> 기존 방식 Fallback
+            fallback_indices = np.where(accel_mps2 < release_val)[0]
+            return fallback_indices[0] if len(fallback_indices) > 0 else 0
+            
+        first_anchor_idx = hard_impact_indices[0]
+        
+        # 2. Backtrack
+        pre_crash_segment = accel_mps2[:first_anchor_idx]
+        safe_indices = np.where(pre_crash_segment > release_val)[0]
+        
+        if len(safe_indices) > 0:
+            return safe_indices[-1] + 1
         else:
-            cutoff = cfc * 1.667
+            # [Fallback] Backtrack 실패 (0ms까지 전부 -0.5g 이하인 경우)
+            # 이는 Bias가 잘못되었을 확률이 높지만, 
+            # 최소한 그래프가 0부터 시작하는 것은 막기 위해 Anchor 직전 20ms를 강제 T0로 잡음.
+            fallback_ms = 20.0
+            fallback_samples = int((fallback_ms / 1000.0) * fs)
+            t0_fallback = max(0, first_anchor_idx - fallback_samples)
+            return t0_fallback
 
+    @staticmethod
+    def find_best_bias(data: np.ndarray, fs: float, window_ms: float = 10.0, limit_ratio: float = 0.2) -> float:
+        # [수정] 탐색 범위 제한 (limit_ratio: 0.4 -> 0.2)
+        # v15494 처럼 충돌이 빨리 시작되는 경우를 위해 앞쪽 20%만 사용
+        search_limit_idx = int(len(data) * limit_ratio)
+        
+        # 너무 짧으면 최소 50ms 확보 시도
+        min_samples = int(0.05 * fs)
+        if search_limit_idx < min_samples: 
+            search_limit_idx = min(len(data), min_samples)
+        
+        target_data = data[:search_limit_idx]
+        win_len = int((window_ms / 1000.0) * fs)
+        if win_len < 3: win_len = 3
+        
+        if len(target_data) < win_len: return np.median(target_data)
+
+        min_std = float('inf')
+        best_mean = 0.0
+        stride = max(1, win_len // 4)
+        
+        for i in range(0, len(target_data) - win_len, stride):
+            segment = target_data[i : i + win_len]
+            curr_std = np.std(segment)
+            if curr_std < min_std:
+                min_std = curr_std
+                best_mean = np.mean(segment)
+        
+        # Bias 안전장치 (3g 이상은 비정상)
+        if abs(best_mean) > 3.0: return 0.0
+        return best_mean
+
+    @staticmethod
+    def apply_cfc_filter(data: np.ndarray, fs: float, cfc: int) -> np.ndarray:
+        if cfc == 60: cutoff = 100.0
+        elif cfc == 180: cutoff = 300.0
+        else: cutoff = cfc * 1.667
         nyq = 0.5 * fs
-        normal_cutoff = np.clip(cutoff / nyq, 0, 0.99) # 안전하게 clip 사용
-
+        normal_cutoff = np.clip(cutoff / nyq, 0, 0.99)
         b, a = signal.butter(2, normal_cutoff, btype="low", analog=False)
         return signal.filtfilt(b, a, data)
